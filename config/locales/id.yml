@@ -8,169 +8,169 @@ id:
   admin:
     categories:
       edit:
-        edit_listing_category: ~
+        edit_listing_category: "Sunting Daftar Kategori"
       index:
-        listing_categories: ~
-        create_a_new_category: ~
-        remove_category_confirmation: ~
-        saving_order: ~
-        save_order_successful: ~
-        save_order_error: ~
+        listing_categories: "Listing Kategori"
+        create_a_new_category: "Buat Kategori Bau"
+        remove_category_confirmation: "Hapus Konfirmasi Kategori"
+        saving_order: "Menyimpan Pesanan"
+        save_order_successful: "Menyimpan Pesanan Berhasil"
+        save_order_error: "Menyimpan Pesanan Gagal"
       new:
-        new_listing_category: ~
+        new_listing_category: "Daftar Kategori Baru"
       form:
         category_name:
-          category_title: ~
+          category_title: "Judul Kategori"
         category_parent:
-          category_parent: ~
-          no_parent: ~
+          category_parent: "Kategori Utama"
+          no_parent: "Tidak Ada Kategori"
         category_transaction_types:
-          transaction_types: ~
-          transaction_types_description: ~
-          select_all: ~
-          clear_all: ~
+          transaction_types: "Tipe Transaksi"
+          transaction_types_description: "Deskripsi Tipe Transaksi"
+          select_all: "Pilih Semua"
+          clear_all: "Hapus Semua"
         buttons:
-          save: ~
-          cancel: ~
+          save: "Simpan"
+          cancel: "Batal"
       remove:
-        remove_category: ~
-        remove_category_name: ~
-        warning_remove_effects: ~
-        select_new_category: ~
+        remove_category: "Hapus Kategori"
+        remove_category_name: "Hapus Nama Kategori"
+        warning_remove_effects: "Peringatan Menghapus Efek"
+        select_new_category: "Pilih Kategori Baru"
         buttons:
-          remove: ~
-          cancel: ~
+          remove: "Hapus"
+          cancel: "Batal"
     communities:
       edit_details:
-        community_details: ~
-        community_look_and_feel: ~
-        edit_community: ~
-        enabled_languages: ~
-        enabled_languages_description: ~
-        default_language: ~
-        language_selection_disabled: ~
-        community_name: ~
-        edit_community_name_description: ~
-        community_slogan: ~
-        community_slogan_display: ~
-        edit_community_slogan_description: ~
-        edit_community_slogan_description_hideable: ~
-        community_description: ~
-        community_description_display: ~
-        edit_community_description_description: ~
-        edit_community_description_description_hideable: ~
-        community_search_placeholder: ~
-        edit_community_search_placeholder_description: ~
-        private_community_homepage_content: ~
-        edit_private_community_homepage_content_description: ~
-        update_information: ~
-        invite_people: ~
-        edit_signup_info: ~
-        edit_signup_info_description: ~
-        edit_info: ~
-        see_how_it_looks_like: ~
-        verification_to_post_listings_info_content: ~
-        verification_to_post_listings_info_content_description: ~
-        verification_to_post_listings_info_content_default: ~
-        contact_admin_link_text: ~
-        save: ~
-        transaction_agreement: ~
-        transaction_agreement_checkbox: ~
-        transaction_agreement_checkbox_header: ~
-        transaction_agreement_checkbox_label_description: ~
-        transaction_agreement_text_header: ~
-        transaction_agreement_description: ~
-        terms_privacy_policy_and_static_content: ~
-        terms_privacy_policy_and_static_content_infotext: ~
+        community_details: "Detail Komunitas"
+        community_look_and_feel: "Tampilan Dan Nuansa Komunitas"
+        edit_community: "Sunting Komunitas"
+        enabled_languages: "Bahasa Yang Diaktifkan"
+        enabled_languages_description: "Deskripsi Bahasa Yang Diaktifkan"
+        default_language: "Bahasa Standar"
+        language_selection_disabled: "Pemilihan Bahasa Dinonaktifkan"
+        community_name: "Nama Komunitas"
+        edit_community_name_description: "Sunting Deskripsi Nama Komunitas"
+        community_slogan: "Slogan Komunitas"
+        community_slogan_display: "Tampilan Slogan Komunitas"
+        edit_community_slogan_description: "Sunting Deskripsi Slogan Komunitas"
+        edit_community_slogan_description_hideable: "Sunting Deskripsi Slogan Komunitas Yang Dapat Disembunyikan"
+        community_description: "Deskripsi Komunitas"
+        community_description_display: "Tampilan Deskripsi Komunitas"
+        edit_community_description_description: "Sunting Deskripsi Komunitas"
+        edit_community_description_description_hideable: "Sunting Deskripsi Komunitas Yang Dapat Disembunyikan"
+        community_search_placeholder: "Placeholder Pencarian Komunitas"
+        edit_community_search_placeholder_description: "Sunting Deskripsi Placeholder Pencarian Komunitas "
+        private_community_homepage_content: "Konten Beranda Komunitas Pribadi"
+        edit_private_community_homepage_content_description: "Sunting Deskripsi Konten Beranda Komunitas Pribadi"
+        update_information: "Perbarui Informasi"
+        invite_people: "Undang Orang"
+        edit_signup_info: "Sunting Info Pendaftaran"
+        edit_signup_info_description: "Sunting Deskripsi Informasi Pendaftaran"
+        edit_info: "Sunting Informasi"
+        see_how_it_looks_like: "Lihat Bagaimana Tampilan Nya"
+        verification_to_post_listings_info_content: "Verifikasi Untuk Memposting Daftar Informasi Konten"
+        verification_to_post_listings_info_content_description: "Verifikasi Untuk Memposting Daftar Informasi Deskripsi Konten"
+        verification_to_post_listings_info_content_default: "Verifikasi Untuk Memposting Daftar Informasi Konten Standar"
+        contact_admin_link_text: "Tautan Hubungi Admin"
+        save: "Simpan"
+        transaction_agreement: "Perjanjian Transaksi"
+        transaction_agreement_checkbox: "Kotak Centang Perjanjian Transaksi"
+        transaction_agreement_checkbox_header: "Header Kotak Centang Perjanjian Transaksi"
+        transaction_agreement_checkbox_label_description: "Deskripsi Label Kotak Centang Perjanjian Transaksi"
+        transaction_agreement_text_header: "Header Teks Perjanjian Transaksi"
+        transaction_agreement_description: "Deskripsi Perjanjian Transaksi"
+        terms_privacy_policy_and_static_content: "Syarat Kebijakan Privasi Dan Konten Static"
+        terms_privacy_policy_and_static_content_infotext: "Syarat Kebijakan Privasi Dan Infotext Konten Statis"
       edit_look_and_feel:
-        edit_community_look_and_feel: ~
-        community_logo: ~
-        community_logo_icon: ~
-        community_logo_icon_mobile: ~
-        community_cover_photo: ~
-        small_community_cover_photo: ~
-        favicon: ~
-        favicon_info_text: ~
-        community_custom_color1: ~
-        community_slogan_color: ~
-        community_slogan_color_instructions_text: ~
-        community_description_color: ~
-        community_description_color_instructions_text: ~
-        new_listing_button_custom_color: ~
-        logo_instructions_text_with_dimensions: ~
-        logo_instructions_text_with_dimensions_no_placing: ~
-        logo_icon_instructions_text_with_dimensions: ~
-        logo_icon_instructions_text_with_dimensions_no_placing: ~
-        logo_mobile_icon_instructions_text_with_dimensions: ~
-        cover_photo_visibility: ~
-        cover_photo_instructions_text_with_dimensions: ~
-        we_have_you_covered: ~
-        cover_photo_ready_made: ~
-        small_cover_photo_visibility: ~
-        small_cover_photo_instructions_text_with_dimensions: ~
-        main_content_width: ~
-        custom_color1_instructions_text: ~
-        new_listing_button_instructions_text: ~
-        default_browse_view: ~
-        default_browse_view_instructions_text: ~
-        grid: ~
-        list: ~
-        map: ~
-        name_display_type: ~
-        name_display_type_instructions_text: ~
-        full_name: ~
-        first_name_with_initial: ~
-        first_name_only: ~
-        invalid_color_code: ~
-        custom_head_script: ~
-        custom_head_script_instructions_text: ~
-        current_image: ~
+        edit_community_look_and_feel: "Sunting Tampilan Dan Nuansa Komunitas"
+        community_logo: "Logo Komunitas"
+        community_logo_icon: "Ikon Logo Komunitas"
+        community_logo_icon_mobile: "Ikon Logo Komunitas Seluler"
+        community_cover_photo: "Foto Sampul Komunitas"
+        small_community_cover_photo: "Foto Sampul Komunitas Kecil"
+        favicon: "Favicon"
+        favicon_info_text: "Teks Informasi Favicon"
+        community_custom_color1: "Warna Kustom Komunitas 1"
+        community_slogan_color: "Warna Slogan Komunitas"
+        community_slogan_color_instructions_text: "Teks Instruksi Warna Slogan Komunitas"
+        community_description_color: "Warna Deskripsi Komunitas"
+        community_description_color_instructions_text: "Teks Instruksi Warna Uraian Komunitas"
+        new_listing_button_custom_color: "Warna Daftar Tombol Kustom Baru"
+        logo_instructions_text_with_dimensions: "Instruksi Logo Teks Dengan Dimensi"
+        logo_instructions_text_with_dimensions_no_placing: "Instruksi Logo Teks Dengan Dimensi Tanpa Penempatan"
+        logo_icon_instructions_text_with_dimensions: "Ikon Logo Instruksi Teks Dengan Dimensi"
+        logo_icon_instructions_text_with_dimensions_no_placing: "Ikon Logo Instruksi Teks Dengan Dimensi Tidak Menempatkan"
+        logo_mobile_icon_instructions_text_with_dimensions: "Ikon Logo Mobile Petunjuk Teks Dengan Dimensi"
+        cover_photo_visibility: "Tutup Visibilitas Foto"
+        cover_photo_instructions_text_with_dimensions: "Sampul Teks Instruksi Foto Dengan Dimensi"
+        we_have_you_covered: "Kami Sudah Membahasnya"
+        cover_photo_ready_made: "Foto Sampul Siap Pakai"
+        small_cover_photo_visibility: "Visibilitas Foto Sampul Kecil"
+        small_cover_photo_instructions_text_with_dimensions: "Teks Instruksi Foto Sampul Kecil Dengan Dimensi"
+        main_content_width: "Lebar Konten Utama"
+        custom_color1_instructions_text: "Teks Instruksi Warna 1 Kustom"
+        new_listing_button_instructions_text: "Teks Instruksi Tombol Daftar Baru"
+        default_browse_view: "Tampilan Browser Default"
+        default_browse_view_instructions_text: "Teks Petunjuk Tampilan Browser Default"
+        grid: "Kisi"
+        list: "Daftar"
+        map: "Peta"
+        name_display_type: "Jenis Nama Tampilan"
+        name_display_type_instructions_text: "Teks Instruksi  Jenis Nama Tampilan"
+        full_name: "Nama Lengkap"
+        first_name_with_initial: "Nama Depan Dengan Inisial"
+        first_name_only: "Hanya nama depan"
+        invalid_color_code: "Kode warna tidak valid"
+        custom_head_script: "Kustom naskah"
+        custom_head_script_instructions_text: "Teks instruksi skrip kepala kustom"
+        current_image: "Gambar saat ini"
       edit_text_instructions:
-        edit_text_instructions: ~
+        edit_text_instructions: "Sunting teks instruksi"
       edit_welcome_email:
-        welcome_email_content: ~
-        welcome_email_content_description: ~
-        edit_message: ~
-        send_test_message: ~
+        welcome_email_content: "Selamat datang konten email"
+        welcome_email_content_description: "Selamat datang deskripsi konten email"
+        edit_message: "Sunting pesan"
+        send_test_message: "Kirim pesan percobaan"
       outgoing_email:
-        title: ~
-        info: ~
-        read_more: ~
-        sender_address: ~
-        sender_address_default: ~
-        need_to_change: ~
-        contact_support_link_text: ~
-        set_sender_address: ~
-        sender_name_label: ~
-        sender_name_placeholder: ~
-        sender_email_label: ~
-        sender_email_placeholder: ~
-        amazon_ses_notification: ~
-        this_is_how_it_will_look: ~
-        send_verification_button: ~
-        change_sender_email: ~
-        successfully_saved: ~
-        successfully_saved_name: ~
-        set_sender_name: ~
-        change_sender_name: ~
-        change_sender_prompt: ~
-        status: ~
-        status_verified: ~
-        status_error: ~
-        status_requested: ~
-        status_expired: ~
-        status_resent: ~
-        resend_link: ~
-        invalid_email_error: ~
-        invalid_email_domain: ~
-        invalid_email_domain_read_more_link: ~
-        unknown_error: ~
-        white_label_offer: ~
-        upgrade_plan_link: ~
-        verification_sent_from: ~
-        follow_the_instructions: ~
+        title: "judul"
+        info: "Informasi"
+        read_more: "Baca lebih lanjut"
+        sender_address: "Alamat pengirim"
+        sender_address_default: "Alamat pengirim default"
+        need_to_change: "Perlu diubah"
+        contact_support_link_text: "Tautan hubungi dukungan"
+        set_sender_address: "Atur Alamat Pengirim"
+        sender_name_label: "Label nama pengirim"
+        sender_name_placeholder: "Placeholder nama pengirim"
+        sender_email_label: "Label email pengirim"
+        sender_email_placeholder: "Placeholder email pengirim"
+        amazon_ses_notification: "Pemberitahuan Amazon"
+        this_is_how_it_will_look: "Beginilah tampilannya"
+        send_verification_button: "Tombol kirim verifikasi"
+        change_sender_email: "Ubah email pengirim"
+        successfully_saved: "Berhasil disimpan"
+        successfully_saved_name: "Nama berhasil disimpan"
+        set_sender_name: "Atur nama pengirim"
+        change_sender_name: "Ubah nama pengirim"
+        change_sender_prompt: "Ubah prompt pengirim"
+        status: "Status"
+        status_verified: "Status diverifikasi"
+        status_error: "Status error"
+        status_requested: "Status diminta"
+        status_expired: "Status Kedaluwarsa"
+        status_resent: "Status kirim ulang"
+        resend_link: "Kirim ulang tautan"
+        invalid_email_error: "Kesalahan email tidak valid"
+        invalid_email_domain: "Domain email tidak valid"
+        invalid_email_domain_read_more_link: "Domain email tidak valid baca lebih lanjut tautan"
+        unknown_error: "Kesalahan tidak diketahui"
+        white_label_offer: "Penawaran label putih"
+        upgrade_plan_link: "Perbarui tautan paket"
+        verification_sent_from: "Verifikasi dikirim dari"
+        follow_the_instructions: "Ikuti petunjuk"
       getting_started:
-        getting_started: ~
+        getting_started: "Mulai"
       available_languages:
         cs: ~
         da-DK: ~
@@ -200,598 +200,598 @@ id:
         zh: ~
         zh-TW: ~
       settings:
-        settings: ~
-        general: ~
-        access: ~
-        join_with_invite_only: ~
-        users_can_invite_new_users: ~
-        private: ~
-        require_verification_to_post_listings: ~
-        allow_free_conversations: ~
-        search_preferences: ~
-        default_search_type: ~
-        keyword_search: ~
-        keyword_and_location_search: ~
-        location_search: ~
-        select_distance_unit: ~
-        km: ~
-        miles: ~
-        show_only_nearby: ~
-        listing_preferences: ~
-        transaction_preferences: ~
-        show_listing_publishing_date: ~
-        show_category_in_listing_list: ~
-        listing_comments_in_use: ~
-        email_preferences: ~
-        automatic_newsletters: ~
-        email_admins_about_new_members: ~
-        google_analytics_key: ~
-        twitter_handle: ~
-        update_settings: ~
-        automatically_confirmed_no_escrow: ~
-        automatically_confirmed_no_escrow_stripe_info: ~
-        buyer_transaction_fees_are_only_supported_with_stripe: ~
-        automatic_newsletter_frequency: ~
-        newsletter_daily: ~
-        newsletter_weekly: ~
-        delete_marketplace_title: ~
-        type_marketplace_domain: ~
-        type_marketplace_domain_placeholder: ~
-        once_you_delete: ~
-        are_you_sure: ~
-        i_understand_button: ~
-        last_community_updates: ~
-        you_will_be_redirected_to: ~
-        delete_this_marketplace: ~
-        payment_preferences: ~
-        pre_approved_listings: ~
-        email_admins_about_new_transactions: ~
+        settings: "Pengaturan"
+        general: "Umum"
+        access: "Akses"
+        join_with_invite_only: "Bergabung dengan undangan saja"
+        users_can_invite_new_users: "Pengguna dapat mengundang pengguna baru"
+        private: "Privasi"
+        require_verification_to_post_listings: "Memerlukan verifikasi untuk mengirim daftar"
+        allow_free_conversations: "Bolehkan percakapan gratis"
+        search_preferences: "Preferensi pencarian"
+        default_search_type: "Jenis pencarian default"
+        keyword_search: "Pencarian kata kunci"
+        keyword_and_location_search: "Pencarian kata kunci dan lokasi"
+        location_search: "Lokasi pencarian"
+        select_distance_unit: "Pilih satuan jarak"
+        km: "km"
+        miles: "mil"
+        show_only_nearby: "Hanya tampilkan di dekatnya"
+        listing_preferences: "Preferensi daftar"
+        transaction_preferences: "Preferensi transaksi"
+        show_listing_publishing_date: "Tampilkan tanggal penerbitan cantuman"
+        show_category_in_listing_list: "Tampilkan kategori dalam uraian daftar"
+        listing_comments_in_use: "Daftar komentar yang digunakan"
+        email_preferences: "Preferensi email"
+        automatic_newsletters: "Buletin otomatis"
+        email_admins_about_new_members: "Admin email tentang anggota baru"
+        google_analytics_key: "Kunci google analytics"
+        twitter_handle: "Pegangan twitter"
+        update_settings: "Perbarui pengaturan"
+        automatically_confirmed_no_escrow: "Secara otomatis mengkonfirmasi tidak ada escrow"
+        automatically_confirmed_no_escrow_stripe_info: "Secara otomatis dikonfirmasi tanpa info garis escrow"
+        buyer_transaction_fees_are_only_supported_with_stripe: "Biaya transaksi pembeli hanya didukung dengan stripe"
+        automatic_newsletter_frequency: "Frekuensi buletin otomatis"
+        newsletter_daily: "Buletin Harian"
+        newsletter_weekly: "Buletin mingguan"
+        delete_marketplace_title: "Hapus judul pasar"
+        type_marketplace_domain: "ketik domain marketplace"
+        type_marketplace_domain_placeholder: "ketik placeholder domain marketplace"
+        once_you_delete: "Setelah anda menghapus"
+        are_you_sure: "Apakah kamu yakin?"
+        i_understand_button: "Saya mengerti"
+        last_community_updates: "Pembaruan komunitas terakhir"
+        you_will_be_redirected_to: "Anda akan diarahkan ke"
+        delete_this_marketplace: "Hapus pasar ini"
+        payment_preferences: "Preferensi pembayaran"
+        pre_approved_listings: "daftar sebelum diterima"
+        email_admins_about_new_transactions: "Email admin tentang transaksi baru"
       manage_members:
-        manage_members: ~
-        email: ~
-        name: ~
-        display_name: ~
-        join_date: ~
-        admin: ~
-        posting_allowed: ~
-        ban_user: ~
-        saving_user_status: ~
-        save_user_status_successful: ~
-        export_all_as_csv: ~
-        save_user_status_error: ~
-        ban_user_confirmation: ~
-        unban_user_confirmation: ~
-        ban_me_error: ~
-        search: ~
-        search_by_name_email: ~
-        reset_search: ~
-        for_search_terms: ~
-        this_makes_the_user_an_admin: ~
+        manage_members: "Kelola Anggota"
+        email: "Email"
+        name: "Nama"
+        display_name: "Tampilan nama"
+        join_date: "Tanggal bergabung"
+        admin: "Admin"
+        posting_allowed: "Posting disetujui"
+        ban_user: "Larang pengguna"
+        saving_user_status: "Menyimpan status pengguna"
+        save_user_status_successful: "Simpan status pengguna sukses"
+        export_all_as_csv: "Ekspor semua sebagai csv"
+        save_user_status_error: "Simpan status pengguna error"
+        ban_user_confirmation: "Konfirmasi larangan  pengguna"
+        unban_user_confirmation: "batalkan konfirmasi larangan pengguna"
+        ban_me_error: "Ban saya error"
+        search: "Cari"
+        search_by_name_email: "Cari berdasarkan nama email"
+        reset_search: "Atur ulang pencarian"
+        for_search_terms: "Untuk istilah pencarian"
+        this_makes_the_user_an_admin: "Ini membuat pengguna menjadi admin"
         status_filter:
-          all: ~
-          selected: ~
-          selected_js: ~
-          admin: ~
-          banned: ~
-          posting_allowed: ~
-          accepted: ~
-          unconfirmed: ~
-          pending: ~
-        this_user_hasnt_confirmed_their_email_address: ~
-        unconfirmed_user: ~
-        resend: ~
-        cancel: ~
-        user_didnt_complete_the_signup_process: ~
-        pending_user: ~
+          all: "Semua"
+          selected: "Terpilih"
+          selected_js: "Js yang dipilih"
+          admin: "Admin"
+          banned: "Dilarang"
+          posting_allowed: "Posting diperbolehkan"
+          accepted: "Diterima"
+          unconfirmed: "Belum dikonfirmasi"
+          pending: "Tertunda"
+        this_user_hasnt_confirmed_their_email_address: "Pengguna ini belum mengonfirmasi alamat email mereka"
+        unconfirmed_user: "Pengguna sbelum dikonfirmasi"
+        resend: "Kirim ulang"
+        cancel: "Batal"
+        user_didnt_complete_the_signup_process: "Pengguna tidak menyelesaikan proses pendaftaran"
+        pending_user: "pengguna tertunda"
       new_layout:
-        new_layout: ~
-        description_roadmap_new: ~
-        enabled_for_you: ~
-        enabled_for_all: ~
-        new_topbar: ~
-        searchpage: ~
+        new_layout: "Tata leta baru"
+        description_roadmap_new: "Uraian roadmap baru"
+        enabled_for_you: "Diaktifkan untuk Anda"
+        enabled_for_all: "Diaktifkan untuk semua"
+        new_topbar: "Bilah teratas baru"
+        searchpage: "Halaman pencarian"
       social_media:
-        social_media: ~
-        logo: ~
-        logo_info: ~
-        social_media_title: ~
-        social_media_title_info: ~
-        link_for_facebook: ~
-        link_for_linkedin: ~
-        link_for_twitter: ~
-        social_media_description: ~
-        twitter_handle: ~
-        twitter_handle_info_text: ~
-        twitter_handle_info_text_with_instructions: ~
-        twitter_instructions_link_text: ~
-        twitter_handle_placeholder: ~
-        invalid_twitter_handle: ~
-        facebook_connect: ~
-        facebook_developers_dashboard: ~
-        facebook_connect_info_text: ~
-        facebook_connect_info_text_with_instructions: ~
-        facebook_instructions_link_text: ~
-        facebook_connect_id: ~
-        invalid_facebook_connect_id: ~
-        facebook_connect_secret: ~
-        invalid_facebook_connect_secret: ~
-        enable_facebook_login: ~
-        save: ~
-        add_another_image: ~
-        google_connect: ~
-        google_instructions_link_text: ~
-        google_developers_console: ~
-        google_connect_info_text_with_instructions: ~
-        google_connect_info_text: ~
-        enable_google_login: ~
-        google_connect_id: ~
-        google_connect_secret: ~
-        linkedin_connect: ~
-        linkedin_instructions_link_text: ~
-        linkedin_developers_dashboard: ~
-        linkedin_connect_info_text_with_instructions: ~
-        linkedin_connect_info_text: ~
-        enable_linkedin_login: ~
-        linkedin_connect_id: ~
-        linkedin_connect_secret: ~
+        social_media: "Sosial media"
+        logo: "Logo"
+        logo_info: "Informasi logo"
+        social_media_title: "Judul sosial media"
+        social_media_title_info: "Informasi judul sosial media"
+        link_for_facebook: "Tautan untuk facebook"
+        link_for_linkedin: "Tautan untuk linkedin"
+        link_for_twitter: "Tautan untuk twitter"
+        social_media_description: "Deskripsi sosial media"
+        twitter_handle: "Menangani twitter"
+        twitter_handle_info_text: "Teks informasi menangani twitter"
+        twitter_handle_info_text_with_instructions: "Teks informasi dengan petunjuk menangani twitter"
+        twitter_instructions_link_text: "Teks petunjuk tautan twitter"
+        twitter_handle_placeholder: "Menangani placeholder twitter"
+        invalid_twitter_handle: "Twitter tidak valid"
+        facebook_connect: "Facebook terhubung"
+        facebook_developers_dashboard: "Dasbor pengembang facebook"
+        facebook_connect_info_text: "Facebook hubungkan teks informasi"
+        facebook_connect_info_text_with_instructions: "Facebook menghubungkan teks info dengan instruksi"
+        facebook_instructions_link_text: "Petunjuk tautan facebook"
+        facebook_connect_id: "Facebook koneksi id"
+        invalid_facebook_connect_id: "Id koneksi facebook tidak valid"
+        facebook_connect_secret: "Facebook koneksi rahasia"
+        invalid_facebook_connect_secret: "Rahasia koneksi facebook tidak valid"
+        enable_facebook_login: "Aktifkan login facebook"
+        save: "Simpan"
+        add_another_image: "Tambahkan gambar lainya"
+        google_connect: "Koneksi google"
+        google_instructions_link_text: "Tautan petunjuk google"
+        google_developers_console: "Konsol pengembang google"
+        google_connect_info_text_with_instructions: "Teks informasi koneksi google dengan petunjuk"
+        google_connect_info_text: "Teks informasi koneksi google"
+        enable_google_login: "Aktifkan login google"
+        google_connect_id: "Id koneksi google"
+        google_connect_secret: "Rahasia koneksi google"
+        linkedin_connect: "Koneksi linkedin"
+        linkedin_instructions_link_text: "Petunjuk tautan linkedin "
+        linkedin_developers_dashboard: "Dasbor pengembang linkedin"
+        linkedin_connect_info_text_with_instructions: "Teks informasi koneksi linkedin beserta linkedin"
+        linkedin_connect_info_text: "Teks informasi koneksi linkedin"
+        enable_linkedin_login: "Aktifkan login linkedin"
+        linkedin_connect_id: "Id koneksi linkedin"
+        linkedin_connect_secret: "Rahasia koneksi linkedin"
       seo_settings:
-        seo: ~
-        title: ~
-        meta_title_label: ~
-        meta_title_info: ~
-        meta_title_link_text: ~
-        meta_description_label: ~
-        meta_description_info: ~
-        meta_description_link_text: ~
-        search_title: ~
-        search_meta_title_label: ~
-        search_meta_title_info: ~
-        search_meta_title_link_text: ~
-        search_meta_description_label: ~
-        search_meta_description_info: ~
-        search_meta_description_link_text: ~
-        listing_title: ~
-        listing_meta_title_label: ~
-        listing_meta_title_info: ~
-        listing_meta_title_link_text: ~
-        listing_meta_description_label: ~
-        listing_meta_description_info: ~
-        listing_meta_description_link_text: ~
-        category_title: ~
-        category_meta_title_label: ~
-        category_meta_title_info: ~
-        category_meta_title_link_text: ~
-        category_meta_description_label: ~
-        category_meta_description_info: ~
-        category_meta_description_link_text: ~
-        profile_title: ~
-        profile_meta_title_label: ~
-        profile_meta_title_info: ~
-        profile_meta_title_link_text: ~
-        profile_meta_description_label: ~
-        profile_meta_description_info: ~
-        profile_meta_description_link_text: ~
-        sitemap_label: ~
-        sitemap_info: ~
-        sitemap_info_link_text: ~
-        sitemap_info_public: ~
-        sitemap_info_private: ~
-        robots_label: ~
-        robots_info: ~
-        robots_info_link_text: ~
-        robots_info_2: ~
-        save: ~
+        seo: "Ceo"
+        title: "Judul"
+        meta_title_label: "Label judul meta"
+        meta_title_info: "Info judul meta"
+        meta_title_link_text: "Teks tautan judul meta"
+        meta_description_label: "Label meta deskripsi"
+        meta_description_info: "Informasi deskripsi meta"
+        meta_description_link_text: "Teks tautan deskripsi meta"
+        search_title: "Judul pencarian"
+        search_meta_title_label: "Label judul meta pencarian"
+        search_meta_title_info: "Informasi judul meta pencarian"
+        search_meta_title_link_text: "Cari meta teks tautan judul "
+        search_meta_description_label: "Cari label deskripsi meta"
+        search_meta_description_info: "Cari info deskripsi meta"
+        search_meta_description_link_text: "Cari meta deskripsi tautan"
+        listing_title: "Daftar judul"
+        listing_meta_title_label: "Daftar label judul meta"
+        listing_meta_title_info: ""Daftar info judul meta
+        listing_meta_title_link_text: "Daftar judul tautan meta"
+        listing_meta_description_label: "Daftar label deskripsi meta"
+        listing_meta_description_info: "Daftar info deskripsi meta"
+        listing_meta_description_link_text: "Daftar deskripsi tautan meta"
+        category_title: "Judul kategori"
+        category_meta_title_label: "Label meta judul kategori"
+        category_meta_title_info: "Kategori info judul meta"
+        category_meta_title_link_text: "Kategori meta judul tautan teks"
+        category_meta_description_label: "Label deskripsi kategori meta"
+        category_meta_description_info: "Info deskripsi meta kategori"
+        category_meta_description_link_text: "kategori deskripsi teks tautan meta"
+        profile_title: "Judul profil"
+        profile_meta_title_label: "Label judul meta profil"
+        profile_meta_title_info: "Profil meta title info"
+        profile_meta_title_link_text: "Profil meta judul tautan"
+        profile_meta_description_label: "Profil meta label deskripsi"
+        profile_meta_description_info: "Informasi deskripsi profil meta"
+        profile_meta_description_link_text: "Tautan deskripsi profil meta"
+        sitemap_label: "Label sitemap"
+        sitemap_info: "Informasi sitemap"
+        sitemap_info_link_text: "Teks tautan informasi sitemap"
+        sitemap_info_public: "Informasi sitemap publik"
+        sitemap_info_private: "Informasi sitemap privasi"
+        robots_label: "Label robot"
+        robots_info: "Informasi robot"
+        robots_info_link_text: "Teks tautan informasi robot"
+        robots_info_2: "Informasi robot 2"
+        save: "Simpan"
       analytics:
-        analytics: ~
-        google_analytics_key: ~
-        google_analytics_key_info_text: ~
-        google_analytics_key_info_text_with_instructions: ~
-        google_analytics_instructions_link_text: ~
-        sharetribe_analytics: ~
-        sharetribe_analytics_info_text_with_instructions: ~
-        sharetribe_analytics_instructions_link_text: ~
-        end_user_analytics: ~
-        save: ~
+        analytics: "analitik"
+        google_analytics_key: "Kunci google analitik"
+        google_analytics_key_info_text: "Teks informasi kunci google analitik"
+        google_analytics_key_info_text_with_instructions: "Teks petunjuk informasi kunci google analitik"
+        google_analytics_instructions_link_text: "Petunjuk tautan analitik google "
+        sharetribe_analytics: "Sharetribe analitik"
+        sharetribe_analytics_info_text_with_instructions: "Petunjuk informasi sharetribe analitik"
+        sharetribe_analytics_instructions_link_text: "Tautan petunjuk sharetribe analitik"
+        end_user_analytics: "Analitik pengguna akhir"
+        save: "Simpan"
       logo_link:
-        title: ~
-        info: ~
-        url: ~
-        placeholder: ~
+        title: "Judul"
+        info: "Informasi"
+        url: "Url"
+        placeholder: "Placeholder"
       menu_links:
-        menu_links: ~
-        menu_links_display: ~
-        save: ~
-        add_menu_link: ~
-        title_placeholder: ~
-        url_placeholder: ~
-        title: ~
-        language: ~
-        url: ~
-        empty: ~
-        max_number_of_links: ~
-        all: ~
-        max_number_of_links_info: ~
-        about_page: ~
+        menu_links: "Tautan menu"
+        menu_links_display: "Tampilan tautan menu"
+        save: "Simpan"
+        add_menu_link: "Tambahkan tautan menu"
+        title_placeholder: "Judul placeholder"
+        url_placeholder: "Url placeholder"
+        title: "Judul"
+        language: "Bahasa"
+        url: "Url"
+        empty: "Kosong"
+        max_number_of_links: "Maksimal nomor dari tautan"
+        all: "Semua"
+        max_number_of_links_info: "Maksimal nomor dari informasi tautan"
+        about_page: "Tentang Halaman"
       default_menu_links:
-        title: ~
-        about_link_title: ~
-        contact_link_title: ~
-        invite_link_title: ~
-        info: ~
-        display_about: ~
-        display_contact: ~
-        display_invite: ~
+        title: "Judul"
+        about_link_title: "Tentang judul tautan"
+        contact_link_title: "Kontak judul tautan"
+        invite_link_title: "Undang judul tautan"
+        info: "Informasi"
+        display_about: "Tampilan tentang"
+        display_contact: "Tampilan kontak"
+        display_invite: "Tampilan undangan"
       topbar:
-        topbar: ~
-        new_listing_button_label: ~
-        invalid_post_listing_button_label: ~
+        topbar: "Topbar"
+        new_listing_button_label: "Label tombol daftar baru"
+        invalid_post_listing_button_label: "Label tombol daftar posting tidak valid"
       transactions:
-        export_all_as_csv: ~
-        processing_export: ~
-        transactions: ~
-        search_by_title_parties: ~
-        search: ~
-        reset_search: ~
+        export_all_as_csv: "Ekspor semua sebagai csv"
+        processing_export: "Memproses ekspor"
+        transactions: "Transaksi"
+        search_by_title_parties: "Mencari berdasarkan judul"
+        search: "Cari"
+        reset_search: "Atur ulang pencarian"
         status_filter:
-          all: ~
-          selected: ~
-          selected_js: ~
-          free: ~
-          confirmed: ~
-          paid: ~
-          canceled: ~
-          preauthorized: ~
-          rejected: ~
-          payment_intent_requires_action: ~
-          payment_intent_action_expired: ~
+          all: "Semua"
+          selected: "Terpilih"
+          selected_js: "Js yang dipilih"
+          free: "Gratis"
+          confirmed: "Dikonfirmasi"
+          paid: "Dibayar"
+          canceled: "Dibatalkan"
+          preauthorized: "Sudah diotorisasi"
+          rejected: "Ditolak"
+          payment_intent_requires_action: "Pembayaran membutuhkan tindakan"
+          payment_intent_action_expired: "Tindakan niat pembayaran telah kedaluwarsa"
         headers:
-          conversation: ~
-          listing: ~
-          status: ~
-          sum: ~
-          started: ~
-          last_activity: ~
-          initiated_by: ~
-          other_party: ~
+          conversation: "Percakapan"
+          listing: "Daftar"
+          status: "Status"
+          sum: "Jumlah"
+          started: "Mulai"
+          last_activity: "Aktivitas Terakhir"
+          initiated_by: "Dinisiasikan oleh"
+          other_party: "Pihak lain"
         status:
-          conversation: ~
-          free: ~
-          pending: ~
-          preauthorized: ~
-          accepted: ~
-          rejected: ~
-          paid: ~
-          confirmed: ~
-          canceled: ~
-          initiated: ~
-          pending_ext: ~
-          none:
-            free: ~
+          conversation: "Percakapan"
+          free: "Gratis"
+          pending: "Tertunda"
+          preauthorized: "Sudah diotorisasi"
+          accepted: "Diterima"
+          rejected: "Ditolak"
+          paid: "Dibayar"
+          confirmed: "Dikonfirmasi"
+          canceled: "Dibatalkan"
+          initiated: "Dimulai"
+          pending_ext: "Ext tertunda"
+          none: "Tidak ada"
+            free: "Gratis"
           paypal:
-            free: ~
-            pending: ~
-            preauthorized: ~
-            accepted: ~
-            rejected: ~
-            paid: ~
-            confirmed: ~
-            canceled: ~
-            initiated: ~
-            pending_ext: ~
+            free: "Gratis"
+            pending: "Tertunda"
+            preauthorized: "Sudah diotorisasi"
+            accepted: "Diterima"
+            rejected: "Ditolak"
+            paid: "Dibayar"
+            confirmed: "Dikonfirmasi"
+            canceled: "Dibatalkan"
+            initiated: "Mulai"
+            pending_ext: "Ext tertunda"
           stripe:
-            free: ~
-            pending: ~
-            preauthorized: ~
-            accepted: ~
-            rejected: ~
-            paid: ~
-            confirmed: ~
-            canceled: ~
-            initiated: ~
-            pending_ext: ~
-            payment_intent_requires_action: ~
-            payment_intent_action_expired: ~
-            payment_intent_failed: ~
-        not_available: ~
+            free: "Gratis"
+            pending: "Tertunda"
+            preauthorized: "Sudah diotorisasi"
+            accepted: "Diterima"
+            rejected: "Ditolak"
+            paid: "Dibayar"
+            confirmed: "Dikonfirmasi"
+            canceled: "DIbatalkan"
+            initiated: "Dimulai"
+            pending_ext: "Ext tertunda"
+            payment_intent_requires_action: "Niat pembayaran membutuhkan tindakan"
+            payment_intent_action_expired: "Tindakan niat pembayaran telah kedaluwarsa"
+            payment_intent_failed: "Niat pembayaran gagal"
+        not_available: "Tidak tersedia"
       conversations:
-        conversations: ~
+        conversations: "Percakapan"
         headers:
-          started_from: ~
-          status: ~
-          started: ~
-          last_activity: ~
-          initiated_by: ~
-          other_party: ~
-        participants: ~
-        profile: ~
-        search_by_keyword: ~
-        search: ~
-        reset_search: ~
-        for_keyword: ~
+          started_from: "Dimulai dari"
+          status: "Status"
+          started: "Dimulai"
+          last_activity: "Aktivitas terakhir"
+          initiated_by: "Dinisiasikan oleh"
+          other_party: "Pihak lain"
+        participants: "Peserta"
+        profile: "Profil"
+        search_by_keyword: "Cari berdasarkan kata kunci"
+        search: "Cari"
+        reset_search: "Atur ulang pencarian"
+        for_keyword: "Untuk kata kunci"
       testimonials:
-        testimonials: ~
-        no_testimonials_found: ~
-        displaying_xx_reviews: ~
-        search_keyword: ~
-        search: ~
-        reset_search: ~
-        for_keyword: ~
+        testimonials: "Testimoni"
+        no_testimonials_found: "Tidak ada kesaksian yang ditemukan"
+        displaying_xx_reviews: "Menampilkan ulasan xx"
+        search_keyword: "Cari Kata kunci"
+        search: "Cari"
+        reset_search: "Atur ulang pencarian"
+        for_keyword: "Untuk kata kunci"
         headers:
-          transaction: ~
-          author: ~
-          receiver: ~
-          status: ~
-          grade: ~
-          text: ~
+          transaction: "Transaksi"
+          author: "Penulis"
+          receiver: "Penerima"
+          status: "Status"
+          grade: "Kualitas"
+          text: "Teks"
         status:
-          waiting: ~
-          skipped: ~
-          published: ~
-          blocked: ~
+          waiting: "Menunggu"
+          skipped: "Dilewati"
+          published: "Diterbitkan"
+          blocked: "Diblokir"
         status_filter:
-          selected: ~
-          all: ~
-          published: ~
-          positive: ~
-          negative: ~
-          skipped: ~
-          waiting: ~
-          blocked: ~
-          selected_js: ~
+          selected: "Terpilih"
+          all: "Semua"
+          published: "Diterbitkan"
+          positive: "Positif"
+          negative: "Negatif"
+          skipped: "Dilewati"
+          waiting: "Menunggu"
+          blocked: "Diblokir"
+          selected_js: "Js terpilih"
         form:
-          review_text: ~
-          save: ~
-          cancel: ~
-          delete_review: ~
-          block_review: ~
-          confirm_modify: ~
-          deleting_info: ~
-          blocking_info: ~
-          unskip: ~
-          if_you_unskip_the_review: ~
-          they_will_not_be_notified_automatically: ~
+          review_text: "Teks ulasan"
+          save: "Simpan"
+          cancel: "Dibatalkan"
+          delete_review: "Hapus ulasan"
+          block_review: "Blokir ulasan"
+          confirm_modify: "Ubah konfirmasi"
+          deleting_info: "Menghapus informasi"
+          blocking_info: "Memblokir informasi"
+          unskip: "unskip"
+          if_you_unskip_the_review: "Jika anda berhenti mengekstrak ulasan"
+          they_will_not_be_notified_automatically: "Mereka tidak akan diberitahu secara otomatis"
       invitations:
-        invitations: ~
+        invitations: "Undangan"
         used:
-          "yes": ~
-          "no": ~
+          "yes": "Ya"
+          "no": "Tidak"
         headers:
-          sent_by: ~
-          message: ~
-          sent_to: ~
-          used: ~
-          date_sent: ~
+          sent_by: "Dikirim oleh"
+          message: "Pesan"
+          sent_to: "Dikirim ke"
+          used: "Bekas"
+          date_sent: "Tanggal dikirim"
       listings:
-        listings: ~
-        search_by_title_author_category: ~
-        search: ~
-        reset_search: ~
-        export_all_as_csv: ~
-        processing_export: ~
+        listings: "Daftar"
+        search_by_title_author_category: "Cari berdasarkan kategori penulis judul"
+        search: "Cari"
+        reset_search: "Atur ulang pencarian"
+        export_all_as_csv: "Ekspor semua sebagai csv"
+        processing_export: "Memproses ekspor"
         status:
-          all: ~
-          selected_js: ~
-          open: ~
-          closed: ~
-          expired: ~
-          approval_pending: ~
-          approval_rejected: ~
+          all: "Semua"
+          selected_js: "Js terpilih"
+          open: "Buka"
+          closed: "Tutup"
+          expired: "Kedaluwarsa"
+          approval_pending: "Persetujuan tertunda"
+          approval_rejected: "Persetujuan ditolak"
         headers:
-          title: ~
-          author: ~
-          created: ~
-          updated: ~
-          category: ~
-          status: ~
-        open: ~
-        closed: ~
-        expired: ~
-        approved: ~
-        approval_pending: ~
-        approval_rejected: ~
+          title: "Judul"
+          author: "Penulis"
+          created: "Dibuat"
+          updated: "Diperbarui"
+          category: "Kategori"
+          status: "Status"
+        open: "Open"
+        closed: "Tutup"
+        expired: "Kedaluwarsa"
+        approved: "Disetujui"
+        approval_pending: "Persetujuan tertunda"
+        approval_rejected: "Persetujuan ditolak"
         form:
-          this_listing_has_not_not_been_approved_yet: ~
-          approve: ~
-          reject: ~
-          cancel: ~
+          this_listing_has_not_not_been_approved_yet: "Daftar ini belum disetujui"
+          approve: "Menyutujui"
+          reject: "Tolak"
+          cancel: "Batal"
       user_fields:
-        user_fields: ~
+        user_fields: "Bidang pengguna"
       footer:
-        footer: ~
-        offer_pro: ~
-        upgrade_plan_link: ~
-        menu_links: ~
-        language: ~
-        title: ~
-        url: ~
-        add: ~
-        save: ~
-        footer_style: ~
-        footer_copyright: ~
-        footer_enabled: ~
-        social_links: ~
-        title_placeholder: ~
-        url_placeholder: ~
+        footer: "Footer"
+        offer_pro: "Menawarkan pro"
+        upgrade_plan_link: "Perbarui tautan paket"
+        menu_links: "Tautan menu"
+        language: "Bahasa"
+        title: "Judul"
+        url: "Url"
+        add: "Menambahkan"
+        save: "Simpan"
+        footer_style: "Gaya footer"
+        footer_copyright: "Hak cipta footer"
+        footer_enabled: "Footer diaktifkan"
+        social_links: "Tautan sosial"
+        title_placeholder: "Judul placeholder"
+        url_placeholder: ""placeholder url"
         style:
-          dark: ~
-          light: ~
-          marketplace_color: ~
-          logo: ~
+          dark: "Gelap"
+          light: "Cahaya"
+          marketplace_color: "Warna pasar"
+          logo: "Logo"
         social:
-          title: ~
-          url: ~
+          title: "Judul"
+          url: "Url"
       domain:
-        domain: ~
-        marketplace_domain: ~
-        offer_pro: ~
-        upgrade_pro_plan_link: ~
-        your_marketplace_address_is: ~
-        would_you_like_to_change_address: ~
-        contact_us: ~
-        you_can_now_use_a_custom_domain: ~
-        would_you_like_to_change_domain: ~
+        domain: "Domain"
+        marketplace_domain: "Domain pasar"
+        offer_pro: "Menawarkan pro"
+        upgrade_pro_plan_link: "Perbarui tautan rencana pro"
+        your_marketplace_address_is: "Alamat pasar Anda adalah"
+        would_you_like_to_change_address: "Apakah Anda ingin mengubah alamat"
+        contact_us: "Kontak kami"
+        you_can_now_use_a_custom_domain: "Sekarang kamu bisa menggunakan kustom domain"
+        would_you_like_to_change_domain: "Apakah kamu ingin mengubah domain?"
     custom_fields:
       edit:
-        edit_listing_field: ~
+        edit_listing_field: "Sunting daftar bidang"
       edit_price:
-        description: ~
-        edit_price_field: ~
-        show_price_filter_homepage: ~
-        price_min: ~
-        price_max: ~
+        description: "Deskripsi"
+        edit_price_field: "Sunting Harga"
+        show_price_filter_homepage: "Tampilkan beranda filter harga"
+        price_min: "Harga minimal"
+        price_max: "Harga maksimal"
       edit_location:
-        edit_location_field: ~
-        this_field_is_required: ~
+        edit_location_field: "Sunting bidang lokasi"
+        this_field_is_required: "Bidang ini diperlukan"
       edit_expiration:
-        edit_expiration_field: ~
-        enable: ~
+        edit_expiration_field: "Sunting bidang kedaluwarsa"
+        enable: "Aktifkan"
       form:
         field_required:
-          this_field_is_required: ~
-          this_field_is_required_checkbox: ~
+          this_field_is_required: "Bidang ini diperlukan"
+          this_field_is_required_checkbox: "Bidang ini diperlukan kotak centang"
         search_filter:
-          search_filter: ~
-          date_cant_be_filtered: ~
-          text_cant_be_filtered: ~
+          search_filter: "Filter pencarian"
+          date_cant_be_filtered: "Tanggal tidak dapat difilter"
+          text_cant_be_filtered: "Teks tidak dapat difilter"
       index:
-        listing_fields: ~
-        listing_fields_help: ~
-        add_new_field: ~
-        remove_field_confirmation: ~
-        cancel: ~
-        save: ~
-        field_title: ~
-        field_type: ~
-        categories: ~
-        select_all: ~
-        clear_all: ~
-        options: ~
-        add_option: ~
-        saving_order: ~
-        save_order_successful: ~
-        save_order_error: ~
-        select_one: ~
-        continue: ~
-        minimum_value: ~
-        maximum_value: ~
-        allow_decimals: ~
+        listing_fields: "Daftar bidang"
+        listing_fields_help: "Bidang daftar membantu"
+        add_new_field: "Tambahkan bidang baru"
+        remove_field_confirmation: "Buang bidang konfirmasi"
+        cancel: "Batal"
+        save: "Simpan"
+        field_title: "Judul bidang"
+        field_type: "jenis bidang"
+        categories: "Kategori"
+        select_all: "Pilih semua"
+        clear_all: "Hapus semua"
+        options: "Pilihan"
+        add_option: "Tambahkan Pilihan"
+        saving_order: "Menyimpan pesanan"
+        save_order_successful: "Menyimpan pesanan berhasil"
+        save_order_error: "Menyimpan pesanan gagal"
+        select_one: "Pilih satu"
+        continue: "Lanjutkan"
+        minimum_value: "Minaml isi"
+        maximum_value: "Maksimal isi"
+        allow_decimals: "Izikan desimal"
       new:
-        new_listing_field: ~
+        new_listing_field: "Bidang daftar baru"
       field_types:
-        text: ~
-        number: ~
-        dropdown: ~
-        checkbox_group: ~
-        date: ~
-        file: ~
-        location: ~
+        text: "Teks"
+        number: "Nomor"
+        dropdown: "Dropdown"
+        checkbox_group: "Kotak centang grup"
+        date: "Tanggal"
+        file: "File"
+        location: "Lokasi"
     person_custom_fields:
-      saving_failed: ~
+      saving_failed: "Menyimpan gagal"
       index:
-        user_fields: ~
-        field_title: ~
-        field_type: ~
-        signup: ~
-        public: ~
-        add_new_field: ~
-        save: ~
-        cancel: ~
-        minimum_value: ~
-        maximum_value: ~
-        allow_decimals: ~
-        add_option: ~
+        user_fields: "Bidang pengguna"
+        field_title: "Judul bidang"
+        field_type: "Jenis bidang"
+        signup: "Daftar"
+        public: "Publikasi"
+        add_new_field: "Tambah bidang baru"
+        save: "Simpan"
+        cancel: "Batal"
+        minimum_value: "Minimal isi"
+        maximum_value: "Maksimal isi"
+        allow_decimals: "Izikan desimal"
+        add_option: "Tambah pilihan"
       new:
-        new_user_field: ~
+        new_user_field: "Bidang pengguna baru"
       form:
         field_required:
-          this_field_is_required: ~
-          this_field_is_required_checkbox: ~
-          this_field_is_public: ~
+          this_field_is_required: "Bidang ini dibutuhkan"
+          this_field_is_required_checkbox: "Bidang Kotak centang ini diperlukan"
+          this_field_is_public: "Bidang ini publik"
       edit:
-        edit_user_field: ~
+        edit_user_field: "Sunting bidang pengguna"
     emails:
       new:
-        send_email_to_members: ~
-        send_email_to_members_title: ~
-        send_email: ~
-        send_email_or: ~
-        send_test_email: ~
-        test_sent: ~
-        send_email_article_title: ~
-        send_email_article_text: ~
+        send_email_to_members: "Kirim email ke anggota"
+        send_email_to_members_title: "Judul kirim email ke anggota"
+        send_email: "Kirim email"
+        send_email_or: "Kirim email atau"
+        send_test_email: "Kirim email percobaan"
+        test_sent: "Percobaan kirim"
+        send_email_article_title: "Kirim judul artikel email"
+        send_email_article_text: "Kirm teks artikel email"
         recipients:
-          title: ~
+          title: "Judul"
           options:
-            all_users: ~
-            posting_allowed: ~
-            with_listing: ~
-            with_listing_no_payment: ~
-            with_payment_no_listing: ~
-            no_listing_no_payment: ~
-        email_subject: ~
-        email_content: ~
-        email_content_placeholder: ~
-        email_language: ~
-        any_language: ~
-        message_will_be_sent_only_to_people_with_this_language: ~
-        email_sent: ~
-        to_improve_email_deliverability: ~
-        email_subject_text: ~
-        firstname_cannot_be_removed: ~
-        hello_firstname: ~
-        hello_firstname_text: ~
+            all_users: "Semua pengguna"
+            posting_allowed: "Posting diizinkan"
+            with_listing: "Dengan daftar"
+            with_listing_no_payment: "Tanpa daftar pembayaran"
+            with_payment_no_listing: "Dengan pembayaran tanpa terdaftar"
+            no_listing_no_payment: "Tidak ada daftar, tidak ada pembayaran"
+        email_subject: "Subject email"
+        email_content: "Konten email"
+        email_content_placeholder: "Placeholder konten email"
+        email_language: "Bahasa email"
+        any_language: "Bahasa apa saja"
+        message_will_be_sent_only_to_people_with_this_language: "Pesan hanya akan dikirim kepada orang-orang dengan bahasa ini"
+        email_sent: "Email terkirim"
+        to_improve_email_deliverability: "Untuk meningkatkan pengiriman email"
+        email_subject_text: "Teks subjek email"
+        firstname_cannot_be_removed: "Nama depan tidak bisa dihapus"
+        hello_firstname: "Halo nama depan"
+        hello_firstname_text: "Halo %{person},"
     left_hand_navigation:
-      general: ~
-      users_and_transactions: ~
-      configure: ~
-      emails_title: ~
-      subscription: ~
-      preview: ~
-      whats_new: ~
+      general: "Umum"
+      users_and_transactions: "Pengguna dan transaksi"
+      configure: "Konfigurasi"
+      emails_title: "Judul email"
+      subscription: "Berlangganan"
+      preview: "Pratinjau"
+      whats_new: "Apa yang baru?"
     listing_shapes:
-      availability_title: ~
-      read_more: ~
-      read_more_availability_management: ~
-      allow_providers_to_manage_availability: ~
-      per_hour_availability: ~
-      per_day_availability: ~
-      per_night_availability: ~
-      pricing_units_disabled_info: ~
-      can_not_find_name: ~
+      availability_title: "Judul ketersediaan"
+      read_more: "Baca lebih lanjut"
+      read_more_availability_management: "Baca lebih lanjut manajemen ketersediaan"
+      allow_providers_to_manage_availability: "Memungkinkan penyedia untuk mengelola ketersediaan"
+      per_hour_availability: "Ketersediaan per jam"
+      per_day_availability: "Ketersediaan per hari"
+      per_night_availability: "Ketersediaan per malam"
+      pricing_units_disabled_info: "Unit informasi harga dinonaktifkan"
+      can_not_find_name: "Tidak dapat mencari nama"
       index:
-        listing_shapes: ~
-        description: ~
-        read_more_about_order_types: ~
-        add_new_shape: ~
-        select_template: ~
-        all_categories: ~
-        no_categories: ~
-        category_count: ~
+        listing_shapes: "Daftar bentuk"
+        description: "Deskripsi"
+        read_more_about_order_types: "Baca lebih lanjut tentang jenis pesanan"
+        add_new_shape: "Tambahkan bentuk baru"
+        select_template: "Pilih templat"
+        all_categories: "Semua kategori"
+        no_categories: "Tidak ada kategori"
+        category_count: "Menghitung kategori"
         header:
-          listing_shape_name: ~
-          listing_shape_categories: ~
+          listing_shape_name: "Daftar nama bentuk"
+          listing_shape_categories: "Daftar nama kategori"
         order:
-          saving_order: ~
-          save_order_successful: ~
-          save_order_error: ~
+          saving_order: "Menyimpan pesanan"
+          save_order_successful: "Menyimpan pesanan berhasil"
+          save_order_error: "Menyimpan pesanan gagal"
       templates:
-        selling_products: ~
-        renting_products: ~
-        offering_services: ~
-        giving_things_away: ~
-        requesting: ~
-        announcement: ~
-        custom: ~
+        selling_products: "Penjualan produk"
+        renting_products: "Penyewaan produk "
+        offering_services: "Menawarkan pesanan"
+        giving_things_away: "Memberikan sesuatu"
+        requesting: "Meminta"
+        announcement: "Pengumuman"
+        custom: "Kustom"
       new:
-        create_listing_shape: ~
-        create: ~
-        cancel: ~
-        create_success: ~
-        create_failure: ~
+        create_listing_shape: "Membuat daftar bentuk"
+        create: "Membuat"
+        cancel: "Batal"
+        create_success: "Membuat berhasil"
+        create_failure: "Membuat gagal"
       edit:
-        edit_listing_shape: ~
-        update: ~
-        cancel: ~
+        edit_listing_shape: "Sunting daftar bentuk"
+        update: "Perbarui"
+        cancel: "Batal"
         update_success: ~
         update_failure: ~
         delete: ~
