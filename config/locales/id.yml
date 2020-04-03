@@ -1034,170 +1034,170 @@ id:
       total_value_stripe: "%{seller_gets}"
       paypal_fee: "Biaya pemrosesan pembayaran PayPal"
       paypal_fee_info: "* Tidak Termasuk %{tautan}"
-      shipping_price_label: ~
-      stripe-fee_label: ~
+      shipping_price_label: "Pengiriman:"
+      stripe-fee_label: "Biaya pemrosesan pembayaran"
     confirm:
-      confirm_description: ~
-      cancel_description: ~
-      cancel_payed_description: ~
-      canceling_payed_transaction: ~
-      confirm: ~
-      cancel: ~
-      continue: ~
-      give_feedback_to: ~
-      do_not_give_feedback: ~
+      confirm_description: "Jika pesanan Anda telah terpenuhi, Anda harus mengonfirmasi itu selesai. Maka Anda dapat memberikan umpan balik kepada pihak lain."
+      cancel_description: "Jika pesanan Anda tidak dipenuhi, Anda dapat menandainya sebagai 'diperdebatkan'. Anda masih dapat memberikan umpan balik kepada pihak lain dan menggambarkan apa yang terjadi."
+      cancel_payed_description: "Jika permintaan Anda diterima tetapi Anda berpikir dua kali, Anda masih dapat membatalkan permintaan sebelum pembayaran."
+      canceling_payed_transaction: "Batalkan transaksi"
+      confirm: "Mark selesai"
+      cancel: "Perselisihan"
+      continue: "Lanjutkan"
+      give_feedback_to: "Berikan umpan balik ke %{person_link}"
+      do_not_give_feedback: "Lewati feedback"
     details:
-      day: ~
-      days: ~
-      price_per_day: ~
+      day: day
+      days: days
+      price_per_day: "Harga per hari: %{price}"
     index:
       loading_more_messages: "Memuat pesan lebih"
-      message_partitive: pesan
-      messages_partitive: pesan
-      no_received_messages: "tidak ada pesan"
-      no_sent_messages: "tidak ada pesan dikirim"
+      message_partitive: Pesan
+      messages_partitive: Pesan
+      no_received_messages: "Tidak ada pesan"
+      no_sent_messages: "Tidak ada pesan dikirim"
     conversation:
-      accepted_request: ~
-      accepted_offer: ~
-      rejected_request: ~
-      rejected_offer: ~
-      confirmed_request: ~
-      confirmed_offer: ~
-      canceled_request: ~
-      canceled_offer: ~
-      message_from: ~
-      about_listing: ~
-      free_message: ~
-      message_content_not_available: ~
+      accepted_request: "Permintaan diterima."
+      accepted_offer: "Penawaran diterima."
+      rejected_request: "Permintaan ditolak."
+      rejected_offer: "Penawaran ditolak"
+      confirmed_request: "Pesanan selesai."
+      confirmed_offer: "Penawaran selesai."
+      canceled_request: "Pesanan dibatalkan."
+      canceled_offer: "Penawaran dibatalkan."
+      message_from: "Pesan dari %{person}"
+      about_listing: "Tentang daftar %{listing_title}"
+      free_message: "Pesan langsung"
+      message_content_not_available: "Konten pesan tidak tersedia"
     message:
-      accepted_request: ~
-      received_payment: ~
-      received_payment_wo_sum: ~
-      accepted_offer: ~
-      rejected_request: ~
-      rejected_offer: ~
-      confirmed_request: ~
-      confirmed_offer: ~
-      canceled_request: ~
-      canceled_offer: ~
-      paid: ~
-      payment_preauthorized: ~
-      payment_preauthorized_wo_sum: ~
+      accepted_request: "Menerima permintaan"
+      received_payment: "Menerima permintaan, menerima pembayaran untuk %{sum}"
+      received_payment_wo_sum: "Menerima permintaan, menerima pembayaran"
+      accepted_offer: "Menerima tawaran"
+      rejected_request: "Menolak permintaan, membatalkan pembayaran"
+      rejected_offer: "Menolak tawaran"
+      confirmed_request: "Menandai pesanan selesai"
+      confirmed_offer: "Menandai penawaran selesai"
+      canceled_request: "Membatalkan pesanan"
+      canceled_offer: "Membatalkan pesanan"
+      paid: "dibayar %{sum}"
+      payment_preauthorized: "Pembayaran diotorisasi: %{sum}"
+      payment_preauthorized_wo_sum: "Pembayaran diotorisasi"
       stripe:
-        held_payment: ~
-        held_payment_wo_sum: ~
-        confirmed_request: ~
+        held_payment: "Permintaan diterima. Pembayaran untuk %{sum} sedang ditahan oleh %{service_name} sampai pesanan ditandai sebagai selesai."
+        held_payment_wo_sum: "Permintaan diterima. Pembayaran sedang ditahan oleh %{service_name} hingga pesanan ditandai sebagai selesai."
+        confirmed_request: "Menandai pesanan sudah selesai. Pembayaran sekarang telah ditransfer ke rekening bank %{author_name} atau akan segera ditransfer."
     new:
       message: Pesan
-      message_to: ~
-      optional_message_to: ~
-      send_message: ~
-      send: ~
-      this_message_is_private: ~
-      you_will_get_notified_of_acceptance: ~
-      you_will_get_notified: ~
+      message_to: "Pesan ke %{author_name}"
+      optional_message_to: "Pesan opsional ke %{author_name}"
+      send_message: "Mengirim pesan"
+      send: "Kirim"
+      this_message_is_private: "Pesan ini bersifat pribadi antara Anda dan %{person}. %{person} akan diberitahu tentang pesan ini melalui email."
+      you_will_get_notified_of_acceptance: "Anda akan mendapatkan pemberitahuan email saat %{person} menerima atau menolak proposal Anda."
+      you_will_get_notified: "Anda akan mendapatkan pemberitahuan email saat %{person} menjawab Anda."
       title: Judul
-      send_message_to_user: ~
-      about_listing: ~
-      author_has_to_accept_request: ~
+      send_message_to_user: "Kirim pesan ke %{person}"
+      about_listing: "Tentang daftar %{listing_title}"
+      author_has_to_accept_request: "%{author_name} perlu menerima permintaan sebelum Anda dapat membayar"
     show:
-      in_response_to_listing: ~
-      message_sent_by: ~
-      message_sent_to: ~
+      in_response_to_listing: "tentang daftar"
+      message_sent_by: "Pesan dikirim oleh"
+      message_sent_to: "Pesan dikirim ke"
       send_reply: "Kirim balasan"
       write_a_reply: "Tulis balasan"
-      conversation_about_listing: ~
-      conversation_with_user: ~
-      conversation_with: ~
-      last_message_at: ~
-      price: ~
-      sum: ~
-      total: ~
+      conversation_about_listing: "Dengan %{person} tentang %{listing}"
+      conversation_with_user: "Dengan %{person}"
+      conversation_with: "Percakapan dengan %{person}"
+      last_message_at: "(pesan terakhir %{time})"
+      price: "Harga: %{price}"
+      sum: "Total: %{sum}"
+      total: "Total: %{total}"
     status:
-      payment_errored: ~
-      payment_errored_starter: ~
-      payment_errored_author: ~
-      cancel_payed_transaction: ~
+      payment_errored: "Pembayaran gagal. Silakan coba lagi."
+      payment_errored_starter: "Pembayaran gagal. Silakan coba lagi. Jika masalah berlanjut, silakan hubungi dukungan Sharetribe."
+      payment_errored_author: "Pembayaran gagal. Silakan hubungi %{starter_name} dan minta mereka untuk mencoba pembayaran lagi."
+      cancel_payed_transaction: Cancel
       feedback_given: "Masukkan yang diberikan"
       feedback_skipped: "Masukkan yang dilewatkan"
       give_feedback: "Berikan masukkan"
       offer_accepted: Diterima
       offer_rejected: Ditolak
-      offer_canceled: ~
-      offer_confirmed: ~
-      offer_paid: ~
-      offer_preauthorized: ~
-      offer_waiting_for_payment: ~
-      pay: ~
-      preauthorized: ~
-      paid: ~
+      offer_canceled: Dibatalkan
+      offer_confirmed: Dikonfirmasi
+      offer_paid: "Pembayaran berhasil"
+      offer_preauthorized: "Pembayaran berhasil"
+      offer_waiting_for_payment: "Menunggu% {requester_name} membayar"
+      pay: Bayar
+      preauthorized: "Pembayaran berhasil"
+      paid: "Pembayaran berhasil"
       pending_external:
         paypal:
-          multicurrency: ~
-          verify: ~
-          intl: ~
-      waiting_for_current_user_to_deliver_listing: ~
-      waiting_for_listing_author_to_deliver_listing: ~
+          multicurrency: "Kami tidak dapat memproses pembayaran PayPal karena akun PayPal Anda belum diatur untuk menerima uang dalam% {currency}. Buka% {paypal_url} dan masuk ke akun Anda untuk secara manual menerima atau menolak pembayaran."
+          verify: "Anda tidak dapat menerima transaksi ini karena Anda belum memverifikasi akun PayPal Anda. Buka% {paypal_url} untuk memverifikasi akun Anda."
+          intl: "Kami tidak dapat memproses pembayaran PayPal karena akun PayPal Anda tidak memiliki mekanisme penarikan. Buka% {paypal_url} dan masuk ke akun Anda untuk menerima atau menolak pembayaran secara manual."
+      waiting_for_current_user_to_deliver_listing: "Menunggu Anda untuk memenuhi pesanan untuk %{listing_title}"
+      waiting_for_listing_author_to_deliver_listing: "Menunggu %{listing_author_name} untuk memenuhi pesanan untuk %{listing_title}"
       request_accepted: Diterima
       request_rejected: Ditolak
-      request_confirmed: ~
-      request_canceled: ~
-      request_paid: ~
-      request_preauthorized: ~
+      request_confirmed: Dikonfirmasi
+      request_canceled: Dibatalkan
+      request_paid: "Pembayaran berhasil"
+      request_preauthorized: "Pembayaran diotorisasi"
       skip_feedback: "Lewati masukkan"
-      waiting_for_listing_author_to_accept_offer: ~
-      waiting_for_listing_author_to_accept_request: ~
-      waiting_for_you_to_accept_request: ~
-      waiting_confirmation_from_requester: ~
-      waiting_confirmation_from_you: ~
-      waiting_payment_from_requester: ~
-      waiting_payment_from_you: ~
-      waiting_feedback_from_you: ~
+      waiting_for_listing_author_to_accept_offer: "Menunggu %{listing_author_name} untuk menerima tawaran"
+      waiting_for_listing_author_to_accept_request: "Menunggu %{listing_author_name} untuk menerima permintaan. Begitu %{listing_author_name} menerima, Anda akan dikenai biaya."
+      waiting_for_you_to_accept_request: "Menunggu kamu untuk menerima permintaan"
+      waiting_confirmation_from_requester: "Menunggu %{requester_name} untuk menandai pesanan selesai"
+      waiting_confirmation_from_you: "Menunggu kamu untuk menandai pesanan selesai"
+      waiting_payment_from_requester: "Menunggu %{requester_name} membayar"
+      waiting_payment_from_you: "Menunggu kamu membayar"
+      waiting_feedback_from_you: "Menunggu kamu untuk memberikan masukan"
       pending_external_inbox:
         paypal:
-          multicurrency: ~
-          intl: ~
-          unknown_reason: ~
-          verify: ~
+          multicurrency: "Menunggu Anda menerima pembayaran PayPal"
+          intl: "Menunggu Anda menerima pembayaran PayPal"
+          unknown_reason: "Pembayaran sedang menunggu. Masuk ke akun PayPal Anda untuk melihat lebih detail."
+          verify: "Menunggu Anda memverifikasi akun PayPal Anda"
       stripe:
-        waiting_confirmation_from_requester: ~
+        waiting_confirmation_from_requester: "Menunggu %{requester_name} untuk menandai pesanan selesai. Setelah pesanan ditandai selesai, pembayaran akan dilepaskan ke rekening bank Anda."
     status_link:
       accept_offer: "Terima penawaran"
       accept_request: "Terima permintaan"
       reject_offer: "Tidak untuk saat ini"
       reject_request: "Tidak untuk saat ini"
-      accept_preauthorized_offer: ~
-      accept_preauthorized_request: ~
-      reject_preauthorized_offer: ~
-      reject_preauthorized_request: ~
-      confirm: ~
-      cancel: ~
+      accept_preauthorized_offer: "Terima penawaran"
+      accept_preauthorized_request: "Terima permintaan"
+      reject_preauthorized_offer: "Tidak kali ini"
+      reject_preauthorized_request: "Tidak kali ini"
+      confirm: "Mark selesai"
+      cancel: Dispute
   feedback:
-    feedback_subject: ~
-    feedback_body: ~
-    unlogged_user: ~
-    anonymous_user: ~
+    feedback_subject: "Masukan baru dari% {service_name}"
+    feedback_body: "%{author_name_and_email} telah mengirim umpan balik berikut dari %{service_name}"
+    unlogged_user: "Pengguna yang tidak terdaftar"
+    anonymous_user: "Pengguna anonim"
   community_memberships:
     access_denied:
-      access_denied: ~
-      you_are_banned_in_this_community: ~
+      access_denied: "Akses ditolak"
+      you_are_banned_in_this_community: "Tim %{service_name} telah menonaktifkan akun Anda. Jika Anda ingin mengirim pesan ke tim %{service_name}, Anda dapat %{link_to_contact_page}."
       contact_page_link: Saran
     new:
       welcome_fb_user: "Selamat datang di  %{service_name}, %{name}!"
-      fb_join_accept_terms: ~
+      fb_join_accept_terms: "Ada satu langkah lagi untuk bergabung dengan %{service_name}: Anda harus menerima persyaratan penggunaan."
       join_community: "Bergabung %{service_name}"
-      you_can_join: ~
-      you_can_join_email_confirmation: ~
-      you_can_join_email_confirmation_multiple_addresses: ~
-      you_can_join_with_invite_only: ~
-      if_want_to_view_content: ~
-      log_out: ~
-      join_community_button: ~
+      you_can_join: "Anda dapat bergabung dengan %{service_name} dengan menerima ketentuan penggunaan dan mengklik 'Gabung %{service_name}' di bawah."
+      you_can_join_email_confirmation: "Untuk bergabung dengan %{service_name} Anda harus memiliki alamat email yang valid yang diakhiri dengan %{email_ending}. Anda dapat bergabung dengan mengisi alamat email Anda, menerima persyaratan penggunaan dan mengklik 'Gabung %{service_name}' di bawah, dan mengonfirmasi email Anda. "
+      you_can_join_email_confirmation_multiple_addresses: "%{service_name} memiliki batasan email. Anda hanya dapat bergabung jika Anda memiliki alamat email yang diizinkan. Anda dapat bergabung dengan mengisi alamat email Anda, menerima ketentuan penggunaan %{service_name} dan mengklik 'Bergabung %{service_name}' di bawah."
+      you_can_join_with_invite_only: "Anda harus memiliki undangan dari anggota lain untuk bergabung dengan %{service_name}. Jika Anda memiliki kode undangan, Anda dapat bergabung dengan mengetikkan kode ke bidang di bawah ini, menerima persyaratan penggunaan dan mengklik 'Gabung %{service_name}' di bawah."
+      if_want_to_view_content: "Jika Anda ingin melihat konten di %{service_name} tanpa bergabung sebagai anggota, Anda harus"
+      log_out: "keluar"
+      join_community_button: "Bergabung %{service_name}"
     give_consent:
-      invitation_code_invalid_or_used: ~
-      email_not_allowed: ~
-      email_not_available: ~
-      consent_not_given: ~
+      invitation_code_invalid_or_used: "Kode undangan tidak valid atau sudah digunakan."
+      email_not_allowed: "Email ini tidak diizinkan di% {service_name}."
+      email_not_available: "Email yang Anda berikan sudah digunakan."
+      consent_not_given: "Syaratnya tidak diterima."
   emails:
     accept_reminder:
       remember_to_accept_offer: "Ingat untuk menerima atau menolak penawaran dari %{sender_name}"
@@ -1206,136 +1206,136 @@ id:
       you_can_accept_or_reject_request_at: "Anda dapat menerima atau menolak permintaan pada"
       you_have_not_yet_accepted_or_rejected_offer: "Anda belum menerima atau menolak penawaran %{title} yang Anda terima pada %{date}."
       you_have_not_yet_accepted_or_rejected_request: "Anda belum menerima atau menolak permintaan %{title} yang Anda terima pada %{date}."
-      show_thread: ~
+      show_thread: "Tampilkan percakapan"
     branding:
-      powered_by: ~
-      create_own: ~
-      learn_more: ~
+      powered_by: "%{service_name} diberdayakan oleh platform marketplace %{sharetribe_link}."
+      create_own: "Ingin membuat situs web marketplace online Anda sendiri seperti %{service_name}? %{Learn_more}."
+      learn_more: "Belajar lagi"
     confirm_reminder:
-      you_have_not_yet_confirmed_or_canceled_request: ~
-      remember_to_confirm_request: ~
-      if_will_not_happen_you_should_cancel: ~
-      cancel_it_link_text: ~
-      automatic_confirmation: ~
+      you_have_not_yet_confirmed_or_canceled_request: "Anda belum menyelesaikan atau membatalkan pesanan %{request_link}. Jika pesanan telah selesai, Anda harus mengonfirmasi itu. Setelah itu Anda dapat memberikan umpan balik ke %{other_party_given_name}."
+      remember_to_confirm_request: "Ingatlah untuk mengonfirmasi atau membatalkan permintaan"
+      if_will_not_happen_you_should_cancel: "Jika Anda pikir pesanan ini tidak akan selesai karena satu dan lain alasan, Anda dapat %{cancel_it_link}."
+      cancel_it_link_text: "Batalkan itu"
+      automatic_confirmation: "Jika Anda tidak mengonfirmasi atau membatalkan pesanan dalam %{days_to_automatic_confirmation} hari setelah permintaan diterima, kami akan menandainya secara otomatis setelah selesai."
     payment_settings_reminder:
-      remember_to_add_payment_details: ~
-      you_have_added_listing_with_payment: ~
-      please_go_to_payment_settings: ~
-      payment_settings_link: ~
+      remember_to_add_payment_details: "Ingatlah untuk menambahkan detail pembayaran Anda untuk menerima pembayaran"
+      you_have_added_listing_with_payment: "Anda telah menambahkan daftar %{listing_link} dengan pembayaran. Namun, Anda belum menambahkan detail pembayaran Anda. Untuk menerima pembayaran, Anda harus menambahkan informasi pembayaran."
+      please_go_to_payment_settings: "Silakan buka% {payment_settings_link} Anda dan isi informasi pembayaran yang diperlukan."
+      payment_settings_link: "pengaturan pembayaran"
     transaction_confirmed:
-      here_is_a_message_from: ~
-      request_marked_as_confirmed: ~
-      request_marked_as_canceled: ~
-      has_marked_request_as_confirmed: ~
-      has_marked_request_as_canceled: ~
-      giving_feedback_is_good_idea: ~
-      give_feedback_to: ~
+      here_is_a_message_from: "Ini pesan dari %{other_party_given_name}:"
+      request_marked_as_confirmed: "Pesanan selesai - jangan lupa untuk memberikan masukan"
+      request_marked_as_canceled: "Pesanan dibatalkan"
+      has_marked_request_as_confirmed: "%{other_party_full_name} telah menandai urutan tentang '%{request}' selesai. Anda sekarang dapat memberikan umpan balik ke %{other_party_given_name}."
+      has_marked_request_as_canceled: "%{other_party_full_name} telah membatalkan pesanan tentang '%{request}'. Anda masih dapat memberikan umpan balik ke %{other_party_given_name}."
+      giving_feedback_is_good_idea: "Memberikan umpan balik selalu merupakan ide yang bagus. Jika semuanya berjalan dengan baik, Anda harus memberi tahu orang lain bahwa %{other_party_given_name} dapat dipercaya. Jika ada masalah, ada baiknya menyebutkannya juga."
+      give_feedback_to: "Berikan masukan ke %{other_party_given_name}"
       stripe:
-        has_marked_request_as_confirmed: ~
+        has_marked_request_as_confirmed: "%{other_party_full_name} telah menandai pesanan tentang '%{request}' selesai. Pembayaran untuk transaksi ini sekarang telah dirilis ke rekening bank Anda. Sekarang Anda dapat memberikan umpan balik ke %{other_party_given_name}."
     transaction_automatically_confirmed:
-      subject: ~
-      we_have_marked_request_as_confirmed: ~
+      subject: "Pesanan selesai secara otomatis - jangan lupa untuk memberikan umpan balik"
+      we_have_marked_request_as_confirmed: "Kami telah menandai pesanan tentang '%{request}' selesai. Pesanan secara otomatis selesai karena %{days_passed} hari telah berlalu sejak permintaan diterima."
     booking_transaction_automatically_confirmed:
-      subject: ~
-      we_have_marked_request_as_confirmed: ~
+      subject: "Pesanan selesai secara otomatis - jangan lupa untuk memberikan umpan balik"
+      we_have_marked_request_as_confirmed: "Kami telah menandai pesanan tentang '%{request}' selesai. Permintaan secara otomatis selesai karena satu hari telah berlalu sejak periode pemesanan berakhir."
     automatically_confirmed_footer:
-      giving_feedback_is_good_idea: ~
-      give_feedback_to: ~
-      show_thread: ~
+      giving_feedback_is_good_idea: "Anda sekarang dapat memberikan umpan balik ke %{other_party_given_name}. Memberikan umpan balik selalu merupakan ide yang bagus. Jika semuanya berjalan dengan baik, Anda harus memberi tahu orang lain bahwa %{other_party_given_name} dapat dipercaya. Jika ada masalah, ada baiknya menyebutkannya. demikian juga."
+      give_feedback_to: "Berikan masukan ke %{other_party_given_name}"
+      show_thread: "Tampilkan percakapan"
     confirmation_instructions:
-      confirmation_instructions_signature: ~
-      need_to_confirm: ~
-      confirmation_link_text: ~
-      or_paste_link: ~
+      confirmation_instructions_signature: "Salam, <br/> Tim %{service_name}"
+      need_to_confirm: "Untuk bergabung dengan %{service_name}, konfirmasikan alamat email Anda dengan mengklik tombol di bawah ini."
+      confirmation_link_text: "Konfirmasikan alamat saya"
+      or_paste_link: "Atau, Anda dapat menyalin tautan berikut ke bilah alamat browser Anda:"
     common:
       hey: "Halo %{name}!"
       kassi_team: "Tim %{service_name}"
       thanks: "Terima Kasih,"
-      dont_want_to_receive_these_emails: ~
-      edit_your_email_settings_here: ~
-      message_not_displaying_correctly: ~
-      view_it_in_your_browser: ~
-      or: ~
-      unsubscribe_from_these_emails_info: ~
-      unsubscribe_from_these_emails: ~
-      unsubscribe_from_invitation_emails_info: ~
-      unsubscribe_from_invitation_emails: ~
+      dont_want_to_receive_these_emails: "Tidak ingin menerima email ini?"
+      edit_your_email_settings_here: "Sunting pengaturan email Anda di sini"
+      message_not_displaying_correctly: "Apakah email ini tidak ditampilkan dengan benar?"
+      view_it_in_your_browser: "Lihat di browser Anda"
+      or: atau
+      unsubscribe_from_these_emails_info: "Anda telah menerima email ini karena Anda adalah anggota dari %{service_name}."
+      unsubscribe_from_these_emails: "berhenti berlangganan dari email ini"
+      unsubscribe_from_invitation_emails_info: "Anda telah menerima email ini karena anggota %{service_name} telah mengundang Anda untuk bergabung dengan mereka."
+      unsubscribe_from_invitation_emails: "Berhenti berlangganan dari email undangan untuk bergabung dengan %{service_name}"
     conversation_status_changed:
       has_accepted_your_offer: "%{accepter} menerima penawaran Anda %{listing}."
       has_accepted_your_request: "%{accepter} menerima permintaan Anda %{listing}."
       has_rejected_your_offer: "%{accepter} menolak penawaran Anda %{listing}."
       has_rejected_your_request: "%{accepter} menolak permintaan Anda %{listing}."
-      view_thread: ~
+      view_thread: "Lihat percakapan"
       your_offer_was_accepted: "Penawaran Anda diterima"
       your_offer_was_rejected: "Penawaran Anda ditolak"
       your_request_was_accepted: "Permintaan Anda diterima"
       your_request_was_rejected: "Permintaan Anda ditolak"
-      you_can_now_pay_to: ~
-      pay_now: ~
-      remember_to_confirm: ~
+      you_can_now_pay_to: "Anda sekarang dapat membayar jumlah yang diminta ke %{payment_receiver}."
+      pay_now: "Bayar sekarang"
+      remember_to_confirm: "Ketika pesanan dipenuhi, ingat untuk menandainya sudah selesai. Jika pesanan tidak terpenuhi, Anda memiliki %{days_to_automatic_confirmation} hari untuk membatalkannya. Jika tidak, maka akan secara otomatis ditandai sebagai selesai."
     invitation_to_kassi:
-      hi: ~
-      you_have_been_invited_to_kassi: ~
-      here_is_a_message_from: ~
-      join_now: ~
-      invitation_code: ~
+      hi: Hai!
+      you_have_been_invited_to_kassi: "%{inviter} telah mengundang Anda ke %{service_name}."
+      here_is_a_message_from: "Ini pesan pribadi dari %{inviter}:"
+      join_now: "Bergabung sekarang"
+      invitation_code: "Kode undangan:% {code}"
     new_comment:
-      has_commented_your_listing_in_kassi: ~
-      view_comment: ~
+      has_commented_your_listing_in_kassi:"%{author} telah mengomentari cantuman Anda '%{listing}'."
+      view_comment: "Lihat komentar"
       you_have_a_new_comment: "%{author} memberikan komen pada list Anda pada %{service_name}"
-      listing_you_follow_has_a_new_comment: ~
-      has_commented_listing_you_follow_in_kassi: ~
+      listing_you_follow_has_a_new_comment: "%{author} mengomentari cantuman yang Anda ikuti di %{service_name}"
+      has_commented_listing_you_follow_in_kassi: "%{author} telah mengomentari cantuman '%{listing}' yang Anda ikuti di %{service_name}."
     new_message:
-      view_message: ~
+      view_message: "Lihat pesan"
       has_sent_you_a_message_in_kassi: "%{sender} mengirimkan Anda pesan pada %{service_name}."
       you_have_a_new_message: "Pesan baru pada %{service_name} dari %{sender_name}"
     new_payment:
-      new_payment: ~
-      price_per_unit_type: ~
-      quantity: ~
-      you_have_received_new_payment: ~
-      listing_per_unit_title: ~
+      new_payment: "Anda telah menerima pembayaran baru"
+      price_per_unit_type: "Harga per %{unit_type}"
+      quantity: "Kuantitas:"
+      you_have_received_new_payment: "Anda telah dibayar <b> %{payment_sum} </b> untuk <b> %{listing_title} </b> oleh %{payer_full_name}. Ini kwitansi Anda."
+      listing_per_unit_title: "%{title}, per %{unit_type}"
     payment_receipt_to_seller:
-      payment_gateway_fee: ~
-      shipping_total: ~
-      product: ~
-      price_payer_paid: ~
-      subtotal: ~
-      service_fee: ~
-      buyer_service_fee: ~
-      you_will_get: ~
-      new_payment: ~
-      price_per_unit_type: ~
-      quantity: ~
-      you_have_received_new_payment: ~
+      payment_gateway_fee: "Biaya pemrosesan pembayaran:"
+      shipping_total: "Pengiriman:"
+      product: "Produk:"
+      price_payer_paid: "Harga %{payer_full_name} dibayar:"
+      subtotal: "Subtotal:"
+      service_fee: "%{service_name} biaya layanan:"
+      buyer_service_fee: "%{service_name} biaya layanan:"
+      you_will_get: "Total:"
+      new_payment: "Anda telah menerima pembayaran baru"
+      price_per_unit_type: "Harga per %{unit_type}"
+      quantity: "Kuantitas:"
+      you_have_received_new_payment: "Anda telah dibayar <b> %{payment_sum} </b> untuk <b> %{listing_title} </b> oleh %{payer_full_name}. Ini kwitansi Anda."
       stripe:
-        you_have_received_new_payment: ~
+        you_have_received_new_payment: "Jumlah <b> %{payment_sum} </b> telah dibayar untuk <b> %{listing_title} </b> oleh %{payer_full_name}. Uang ditahan oleh %{service_name} hingga pesanan selesai ditandai sebagai selesai. Ini kwitansi Anda. "
     payment_receipt_to_payer:
-      receipt_of_payment: ~
-      you_have_made_new_payment: ~
-      product: ~
-      price_per_unit_type: ~
-      duration: ~
-      quantity: ~
-      subtotal: ~
-      buyer_service_fee: ~
-      total: ~
-      price: ~
-      service_fee: ~
-      stripe_gateway_fee: ~
-      paypal_gateway_fee: ~
-      money_will_be_transferred: ~
+      receipt_of_payment: "Menerima pembayaran"
+      you_have_made_new_payment: "Anda telah membayar <b> %{payment_sum} </b> untuk <b> %{listing_title} </b> ke %{recipient_full_name}. Ini adalah tanda terima pembayaran."
+      product: "Produk"
+      price_per_unit_type: "Harga per %{unit_type}"
+      duration: Durasi
+      quantity: Kuantitas
+      subtotal: Subtotal
+      buyer_service_fee: "%{service_name} biaya layanan:"
+      total: Total
+      price: Harga
+      service_fee: "Biaya jasa"
+      stripe_gateway_fee: "Biaya Stripe:"
+      paypal_gateway_fee: "Biaya PayPal:"
+      money_will_be_transferred: "Uang akan ditransfer ke %{recipient_name} ketika a) Anda telah menandai permintaan selesai atau b) %{automatic_confirmation_days} hari telah berlalu sejak Anda membayar."
     paypal_new_payment:
-      paypal_gateway_fee: ~
-      shipping_total: ~
+      paypal_gateway_fee: "Biaya PayPal:"
+      shipping_total: "Pengiriman:"
     braintree_new_payment:
-      product: ~
-      price_payer_paid: ~
-      service_fee: ~
-      you_will_get: ~
+      product: "Produk"
+      price_payer_paid: "Harga %{payer_full_name} dibayar:"
+      service_fee: "%{service_name} biaya layanan:"
+      you_will_get: "Total:"
     receipt_to_payer:
-      receipt_of_payment: ~
-      you_have_made_new_payment: ~
+      receipt_of_payment: "Menerima pembayaran"
+      you_have_made_new_payment: "Anda telah membayar <b> %{payment_sum} </b> untuk <b> %{listing_title} </b> ke %{recipient_full_name}. Ini adalah tanda terima pembayaran."
       product: ~
       price_per_unit_type: ~
       duration: ~
