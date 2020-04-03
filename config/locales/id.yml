@@ -833,35 +833,35 @@ id:
           time_label: "Waktu (per 30 menit, per 2 minggu, per tahun ...)"
     paypal_accounts:
       marketplace_paypal_integration: "Preferensi sistem pembayaran"
-      preferences_updated: ~
-      contact_support_link_text: ~
-      integration_info_text: ~
-      link_paypal_personal_account_label: ~
-      link_paypal_personal_account: ~
-      link_stripe_personal_account: ~
-      link_paypal_and_stripe_personal_account: ~
-      personal_payment_preferences_link_text: ~
-      read_more_about_paypal: ~
-      edit_payment_settings: ~
-      supported_currencies_information_text: ~
-      currency_change_warning_text: ~
-      marketplace_currency_label: ~
-      minimum_listing_price_label: ~
-      transaction_fee_label: ~
-      minimum_transaction_fee_label: ~
-      save_settings: ~
-      minimum_listing_price_below_tx_fee: ~
-      minimum_listing_price_below_min: ~
+      preferences_updated: "Preferensi sistem pembayaran diperbarui"
+      contact_support_link_text: "Hubungi dukungan"
+      integration_info_text: "Sistem pembayaran pasar Anda diberdayakan oleh PayPal. Untuk memungkinkan pengguna Anda membayar menggunakan pasar Anda, Anda harus menghubungkan akun PayPal Anda. Setelah Anda menghubungkan akun PayPal Anda, Anda dapat memilih ukuran transaksi minimum dan kemungkinan biaya komisi."
+      link_paypal_personal_account_label: "Apakah Anda menyediakan produk atau layanan sendiri?"
+      link_paypal_personal_account: "Jika demikian, Anda juga perlu menghubungkan akun PayPal Anda %{personal_payment_preferences_link}."
+      link_stripe_personal_account: "Jika demikian, Anda juga perlu menambahkan rincian pembayaran %{personal_payment_preferences_link}."
+      link_paypal_and_stripe_personal_account: "Jika demikian, Anda juga perlu menghubungkan akun PayPal atau Stripe Anda ke %{personal_payment_preferences_link}."
+      personal_payment_preferences_link_text: "Akun pasar pribadi Anda"
+      read_more_about_paypal: "Baca lebih lanjut tentang sistem pembayaran"
+      edit_payment_settings: "Sunting sistem pembayaran"
+      supported_currencies_information_text: "Sistem pembayaran online Sharetribe mendukung 24 mata uang. Jika mata uang Anda tidak ada dalam daftar, silakan% {contact_support_link}. Jika Anda mengubah mata uang pasar, daftar yang ada akan mempertahankan mata uang lama mereka. Anda perlu mengedit daftar itu satu per satu untuk mengonversinya ke mata uang baru."
+      currency_change_warning_text: "header: jika Anda bergerak maju dengan perubahan mata uang ini, jangan lupa untuk meminta penjual Anda mengedit daftar mereka yang ada secara manual untuk mendapatkan pembaruan mata uang."
+      marketplace_currency_label: "Mata uang pasar:"
+      minimum_listing_price_label: "Mimimum ukuan transaksi"
+      transaction_fee_label: "Biaya transaksi penjual:"
+      minimum_transaction_fee_label: "Penjual biaya transaksi minimum:"
+      save_settings: "Simpan pengaturan"
+      minimum_listing_price_below_tx_fee: "Ukuran transaksi minimum harus lebih besar dari atau sama dengan biaya transaksi minimum: %{minimum_transaction_fee}."
+      minimum_listing_price_below_min: "Ukuran transaksi minimum harus lebih besar dari komisi minimum %{minimum_commission}."
     payment_preferences:
-      title: ~
-      general_settings: ~
-      connect_a_payment_provider: ~
-      contact_support: ~
-      no_payments_link_text: ~
-      your_country: ~
-      you_cannot_use_online_payments: ~
-      which_to_choose: ~
-      you_can_use_stripe_or_paypal: ~
+      title: "Preferensi sistem pembayaran"
+      general_settings: "1. Pengaturan umum"
+      connect_a_payment_provider: "2. Hubungkan penyedia pembayaran"
+      contact_support: "Hubungi Dukungan"
+      no_payments_link_text: disini
+      your_country: "Negara anda:"
+      you_cannot_use_online_payments: "Anda tidak dapat menggunakan pembayaran online di %{country_name} dengan %{currency}. Silakan pilih mata uang yang berbeda atau %{support_link} untuk mengubah negara Anda. Anda dapat membaca lebih lanjut tentang negara dan mata uang yang didukung %{help_link}. Di masa mendatang kami mungkin menambahkan lebih banyak penyedia pembayaran dan mendukung lebih banyak mata uang"
+      which_to_choose: "Yang mana yang harus dipilih?"
+      you_can_use_stripe_or_paypal: "Anda dapat menggunakan Stripe, PayPal atau keduanya sebagai penyedia pembayaran Anda. %{choose_link}"
       you_can_use_stripe_only: ~
       read_more_stripe: ~
       you_can_use_paypal_only: ~
