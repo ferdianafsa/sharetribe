@@ -76,9 +76,9 @@ id:
         save: "Simpan"
         transaction_agreement: "Perjanjian Transaksi"
         transaction_agreement_checkbox: "Kotak Centang Perjanjian Transaksi"
-        transaction_agreement_checkbox_header: "Header Kotak Centang Perjanjian Transaksi"
+        transaction_agreement_checkbox_header: "Perhatian Kotak Centang Perjanjian Transaksi"
         transaction_agreement_checkbox_label_description: "Deskripsi Label Kotak Centang Perjanjian Transaksi"
-        transaction_agreement_text_header: "Header Teks Perjanjian Transaksi"
+        transaction_agreement_text_header: "Perhatian Teks Perjanjian Transaksi"
         transaction_agreement_description: "Deskripsi Perjanjian Transaksi"
         terms_privacy_policy_and_static_content: "Syarat Kebijakan Privasi Dan Konten Static"
         terms_privacy_policy_and_static_content_infotext: "Syarat Kebijakan Privasi Dan Infotext Konten Statis"
@@ -139,7 +139,7 @@ id:
         sender_address: "Alamat pengirim"
         sender_address_default: "Alamat pengirim default"
         need_to_change: "Perlu diubah"
-        contact_support_link_text: "Tautan hubungi dukungan"
+        contact_support_link_text: "Tautan hubungi Support"
         set_sender_address: "Atur Alamat Pengirim"
         sender_name_label: "Label nama pengirim"
         sender_name_placeholder: "Placeholder nama pengirim"
@@ -834,7 +834,7 @@ id:
     paypal_accounts:
       marketplace_paypal_integration: "Preferensi sistem pembayaran"
       preferences_updated: "Preferensi sistem pembayaran diperbarui"
-      contact_support_link_text: "Hubungi dukungan"
+      contact_support_link_text: "Hubungi Support"
       integration_info_text: "Sistem pembayaran pasar Anda diberdayakan oleh PayPal. Untuk memungkinkan pengguna Anda membayar menggunakan pasar Anda, Anda harus menghubungkan akun PayPal Anda. Setelah Anda menghubungkan akun PayPal Anda, Anda dapat memilih ukuran transaksi minimum dan kemungkinan biaya komisi."
       link_paypal_personal_account_label: "Apakah Anda menyediakan produk atau layanan sendiri?"
       link_paypal_personal_account: "Jika demikian, Anda juga perlu menghubungkan akun PayPal Anda %{personal_payment_preferences_link}."
@@ -844,9 +844,9 @@ id:
       read_more_about_paypal: "Baca lebih lanjut tentang sistem pembayaran"
       edit_payment_settings: "Sunting sistem pembayaran"
       supported_currencies_information_text: "Sistem pembayaran online Sharetribe mendukung 24 mata uang. Jika mata uang Anda tidak ada dalam daftar, silakan% {contact_support_link}. Jika Anda mengubah mata uang pasar, daftar yang ada akan mempertahankan mata uang lama mereka. Anda perlu mengedit daftar itu satu per satu untuk mengonversinya ke mata uang baru."
-      currency_change_warning_text: "header: jika Anda bergerak maju dengan perubahan mata uang ini, jangan lupa untuk meminta penjual Anda mengedit daftar mereka yang ada secara manual untuk mendapatkan pembaruan mata uang."
+      currency_change_warning_text: "Perhatian: jika Anda bergerak maju dengan perubahan mata uang ini, jangan lupa untuk meminta penjual Anda mengedit daftar mereka yang ada secara manual untuk mendapatkan pembaruan mata uang."
       marketplace_currency_label: "Mata uang pasar:"
-      minimum_listing_price_label: "Mimimum ukuan transaksi"
+      minimum_listing_price_label: "Mimimum ukuran transaksi"
       transaction_fee_label: "Biaya transaksi penjual:"
       minimum_transaction_fee_label: "Penjual biaya transaksi minimum:"
       save_settings: "Simpan pengaturan"
@@ -856,7 +856,7 @@ id:
       title: "Preferensi sistem pembayaran"
       general_settings: "1. Pengaturan umum"
       connect_a_payment_provider: "2. Hubungkan penyedia pembayaran"
-      contact_support: "Hubungi Dukungan"
+      contact_support: "Hubungi Support"
       no_payments_link_text: disini
       your_country: "Negara anda:"
       you_cannot_use_online_payments: "Anda tidak dapat menggunakan pembayaran online di %{country_name} dengan %{currency}. Silakan pilih mata uang yang berbeda atau %{support_link} untuk mengubah negara Anda. Anda dapat membaca lebih lanjut tentang negara dan mata uang yang didukung %{help_link}. Di masa mendatang kami mungkin menambahkan lebih banyak penyedia pembayaran dan mendukung lebih banyak mata uang"
@@ -1001,37 +1001,39 @@ id:
       body_text: |-
         Untuk pembayaran PayPal,% {service_name} membebankan biaya komisi sebesar% {paypal_commission}%. Biaya transaksi minimum per transaksi adalah% {minimum_transaction_fee}. Biaya PayPal tidak termasuk dalam komisi ini, jadi selain komisi% {service_name}, Anda juga akan membayar biaya PayPal untuk masing-masing. Biaya PayPal adalah antara 2% dan 5% dari total harga penjualan, tergantung pada volume penjualan bulanan Anda dan negara tempat tinggal pembeli. Secara umum, pembelian domestik memiliki biaya lebih rendah daripada internasional, dan penjualan bulanan yang lebih tinggi memberi Anda diskon biaya.
         Anda dapat melihat biaya yang tepat dengan masuk ke akun PayPal Anda dan membuka% {link_to_paypal}. Setelah setiap pembelian, Anda akan mendapatkan tanda terima yang menunjukkan biaya persis.
-      body_text_accept: ~
-      link_to_paypal_text: ~
+      body_text_accept: |-
+        Transaksi ini diproses oleh PayPal. PayPal memungut biaya pemrosesan dari setiap pembayaran. Biaya ini antara 2% dan 5% dari total harga penjualan, tergantung pada volume penjualan bulanan Anda dan negara tempat tinggal pembeli. Secara umum, pembelian domestik memiliki biaya lebih rendah daripada internasional, dan penjualan bulanan yang lebih tinggi memberi Anda diskon biaya.
+        Anda dapat melihat biaya yang tepat dengan masuk ke akun PayPal Anda dan membuka% {link_to_paypal}. Setelah setiap pembelian, Anda akan mendapatkan tanda terima yang menunjukkan biaya persis.
+      link_to_paypal_text: here
     stripe_fee_info:
-      title: ~
-      body_text: ~
-      link_to_stripe_text: ~
+      title: "Biaya pemrosesan pembayaran Stripe"
+      body_text: "Untuk pembayaran Stripe, %{service_name} membebani komisi %{stripe_commission}%. Komisi minimum per transaksi adalah %{minimum_transaction_fee}. Biaya Stripe termasuk dalam komisi ini."
+      link_to_stripe_text: here
   conversations:
     accept:
-      details: ~
-      order_by: ~
-      accept_offer: ~
-      accept_request: ~
-      reject_offer: ~
-      reject_request: ~
-      close_listing: ~
-      update_later: ~
-      optional_message: ~
-      price_to_pay: ~
-      accept: ~
-      decline: ~
-      quantity_label: ~
-      sum_label: ~
-      service_fee_label: ~
-      buyer_service_fee_label: ~
-      you_will_get_label: ~
-      total_label: ~
-      total_value: ~
-      total_value_paypal: ~
-      total_value_stripe: ~
-      paypal_fee: ~
-      paypal_fee_info: ~
+      details: "Detail pesanan"
+      order_by: "Pesan berdasarkan %{orderer_link}"
+      accept_offer: "Menerima pesanan"
+      accept_request: "Menerima permintaan"
+      reject_offer: "Tidak kali ini"
+      reject_request: "Tidak kali ini"
+      close_listing: "Tutup daftar %{listing_title_link}"
+      update_later: "Biarkan cantuman terbuka"
+      optional_message: "Pesan opsional"
+      price_to_pay: "Total harga yang harus dibayar"
+      accept: "Menerima"
+      decline: "Menurun"
+      quantity_label: "Kuantitas:"
+      sum_label: "Subtotal:"
+      service_fee_label: "biaya %{service_name}:"
+      buyer_service_fee_label: "%{service_name} biaya layanan:"
+      you_will_get_label: "Kamu akan mendapatkan:"
+      total_label: "Total:"
+      total_value: "%{seller_gets}*"
+      total_value_paypal: "%{seller_gets}*"
+      total_value_stripe: "%{seller_gets}"
+      paypal_fee: "Biaya pemrosesan pembayaran PayPal"
+      paypal_fee_info: "* Tidak Termasuk %{tautan}"
       shipping_price_label: ~
       stripe-fee_label: ~
     confirm:
@@ -1825,7 +1827,7 @@ id:
       poll_updated: ~
       poll_deleted: ~
       read_more: "Baca selengkapnya!"
-      registration_considered_spam: "Pendaftaran tidak bekerja, silakan kirim masukkan atau pesan dari menu header dan menyebutkan \"email2 error\"."
+      registration_considered_spam: "Pendaftaran tidak bekerja, silakan kirim masukkan atau pesan dari menu perhatian dan menyebutkan \"email2 error\"."
       reply_cannot_be_empty: "Anda tidak dapat mengirimkan pesan kosong"
       reply_sent: "Balasan sukses dikirimkan"
       request_accepted: "Permintaan diterima"
