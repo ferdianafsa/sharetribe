@@ -862,93 +862,96 @@ id:
       you_cannot_use_online_payments: "Anda tidak dapat menggunakan pembayaran online di %{country_name} dengan %{currency}. Silakan pilih mata uang yang berbeda atau %{support_link} untuk mengubah negara Anda. Anda dapat membaca lebih lanjut tentang negara dan mata uang yang didukung %{help_link}. Di masa mendatang kami mungkin menambahkan lebih banyak penyedia pembayaran dan mendukung lebih banyak mata uang"
       which_to_choose: "Yang mana yang harus dipilih?"
       you_can_use_stripe_or_paypal: "Anda dapat menggunakan Stripe, PayPal atau keduanya sebagai penyedia pembayaran Anda. %{choose_link}"
-      you_can_use_stripe_only: ~
-      read_more_stripe: ~
-      you_can_use_paypal_only: ~
-      read_more_paypal: ~
-      read_more_about_paypal_and_stripe: ~
-      general_settings_updated: ~
-      transaction_fee_settings_updated: ~
-      choose_popup_text: ~
-      invalid_api_keys: ~
-      missing_api_keys: ~
-      stripe_verified: ~
-      change_settings: ~
-      configure_stripe: ~
-      configure_paypal: ~
-      transaction_fee_settings: ~
-      transaction_fee_save: ~
-      stripe_fee: ~
-      stripe_fee_notice: ~
-      fee_should_be_less_than_minimum_price: ~
-      the_transaction_fee_must_be_lower_than_100: ~
-      confirm_disable: ~
-      commission_from_buyer_label: ~
-      minimum_buyer_transaction_fee_label: ~
+      you_can_use_stripe_only: "Anda dapat menggunakan Stripe sebagai penyedia pembayaran Anda. %{read_more_link}"
+      read_more_stripe: "Baca lebih lanjut tentang pembayaran Stripe."
+      you_can_use_paypal_only: "Anda dapat menggunakan PayPal sebagai penyedia pembayaran Anda. %{read_more_link}"
+      read_more_paypal: "Baca lebih lanjut tentang pembayaran Paypal."
+      read_more_about_paypal_and_stripe: "Baca lebih lanjut tentang pembayaran online, Stripe, dan PayPal"
+      general_settings_updated: "Pengaturan umum sistem pembayaran diperbarui"
+      transaction_fee_settings_updated: "Pengaturan biaya transaksi diperbarui"
+      choose_popup_text: |-
+        Jika Anda ingin mengizinkan pengguna Anda menerima pembayaran online, Anda harus memilih mata uang untuk pasar Anda dan kemudian menghubungkan setidaknya satu dari dua penyedia pembayaran yang didukung oleh Sharetribe: Stripe dan PayPal. Anda juga dapat memilih untuk menggunakan keduanya, yang berarti pengguna Anda akan dapat menerima pembayaran dengan metode pembayaran apa pun. Anda dapat membuat akun baru dengan layanan mana pun jika Anda belum memilikinya. Setelah menghubungkan akun, Anda dapat memilih kemungkinan biaya yang dibebankan dari setiap transaksi.
+          Apa perbedaan antara Stripe dan PayPal? Stripe memungkinkan Anda untuk menunda pembayaran kepada penjual hingga 3 bulan dan menawarkan satu metode pembayaran (kartu kredit / debit). Stripe juga memungkinkan penjual Anda untuk menerima uang langsung ke rekening bank mereka hanya dengan memberikan rincian bank mereka. PayPal menyediakan dua metode pembayaran (kartu kredit dan akun PayPal) dan menawarkan program perlindungan untuk pembeli dan penjual. Ini mengharuskan penjual Anda untuk membuat Akun Bisnis PayPal untuk menerima pembayaran.
+          Jika Anda menggunakan Stripe, biayanya akan dikurangkan dari biaya transaksi Anda, jadi ingatlah untuk menetapkan biaya minimum yang cukup tinggi. Jika Anda menggunakan PayPal, biayanya akan dibebankan dari penjual secara terpisah, di samping biaya transaksi Anda. Stripe dan PayPal memiliki struktur biaya yang sedikit berbeda. Dalam banyak kasus, biaya Stripe sedikit lebih rendah.
+      invalid_api_keys: "Kunci API Stripe Tidak Valid"
+      missing_api_keys: "Kunci API Stripe Tidak Ada"
+      stripe_verified: "Akses Stripe API diverifikasi"
+      change_settings: "Ubah pengaturan dan biaya"
+      configure_stripe: "Konfigurasikan Stripe"
+      configure_paypal: "Konfigurasikan PayPal"
+      transaction_fee_settings: "Pengaturan biaya transaksi"
+      transaction_fee_save: Save
+      stripe_fee: "Biaya Stripe"
+      stripe_fee_notice: "% {stripe_fee_link} akan dikurangkan dari biaya transaksi yang Anda bebankan."
+      fee_should_be_less_than_minimum_price: "Biaya transaksi minimum harus lebih rendah dari ukuran transaksi minimum"
+      the_transaction_fee_must_be_lower_than_100: "Biaya transaksi harus lebih rendah dari 100%"
+      confirm_disable: "Anda yakin ingin menonaktifkan %{gateway}? Jika Anda menonaktifkannya, penjual tidak lagi dapat menerima uang dan pembeli tidak lagi dapat membayar melalui metode pembayaran ini. Jika penjual belum mengonfigurasi metode pembayaran lain, pembeli tidak akan dapat membeli dari mereka."
+      commission_from_buyer_label: "Biaya transaksi pembeli:"
+      minimum_buyer_transaction_fee_label: "Biaya transaksi minimum pembeli:"
       stripe_connected:
-        title: ~
-        disable: ~
-        disabled: ~
-        enable: ~
+        title: "Stripe terhubung"
+        disable: "Nonaktifkan Stripe"
+        disabled: "Stripe dinonaktifkan"
+        enable: "Aktifkan Stripe lagi"
       paypal_connected:
-        title: ~
-        disable: ~
-        disabled: ~
-        enable: ~
-      cannot_enable_gateway: ~
-      cannot_disable_gateway: ~
-      cannot_enable_gateway_because_of_buyer_commission: ~
+        title: "Paypal terhubung"
+        disable: "Nonaktifkan Paypal"
+        disabled: "Paypal dinonaktifkan"
+        enable: "Aktifkan Paypal lagi"
+      cannot_enable_gateway: "Tidak dapat mengaktifkan gateway pembayaran %{gateway}."
+      cannot_disable_gateway: "Tidak dapat menonaktifkan gateway pembayaran %{gateway}."
+      cannot_enable_gateway_because_of_buyer_commission: "Tidak dapat mengaktifkan gateway pembayaran %{gateway} karena komisi pembeli digunakan"
       stripe_form:
-        add_your_api_keys: ~
-        how_to_get_these: ~
-        publishable_key_example: ~
-        secret_key_example: ~
-        save_api_keys: ~
-        invalid_secret: ~
-        invalid_publishable: ~
+        add_your_api_keys: "Tambahkan kunci API Stripe Anda"
+        how_to_get_these: "Bagaimana cara mendapatkannya?"
+        publishable_key_example: "Misalnya: %{api_publishable_key_example}"
+        secret_key_example: "Misalnya: %{api_secret_key_example}"
+        save_api_keys: "Simpan kunci API Stripe"
+        invalid_secret: "Itu tidak terlihat seperti %{secret_key} yang benar"
+        invalid_publishable: "Itu tidak terlihat seperti %{publishable_key} yang benar"
       index:
-        header: ~
-        info: ~
-        active: ~
-        gateway: ~
-        process: ~
-        commission: ~
-        minimum_price: ~
-        minimum_fee: ~
-        api_verified: ~
-        actions: ~
-        payments_not_enabled: ~
+        header: "Pengaturan Pembayaran yang tersedia"
+        info: "Anda dapat mengonfigurasi gateway pembayaran yang tersedia untuk digunakan di pasar Anda. Saat ini PayPal dan Stripe didukung."
+        active: Aktif
+        gateway: Gateway
+        process: Proses
+        commission: Komisi
+        minimum_price: Min.price
+        minimum_fee: Min.fee
+        api_verified: "API diverifikasi?"
+        actions: Actions
+        payments_not_enabled: "Pembayaran tidak diaktifkan untuk pasar Anda"
     transaction_types:
-      sell: ~
-      sell_w_online_payment: ~
-      sell_wo_online_payment: ~
-      rent: ~
-      rent_w_online_payment: ~
-      rent_wo_online_payment: ~
-      give: ~
-      lend: ~
-      swap: ~
-      service: ~
-      service_w_online_payment: ~
-      service_wo_online_payment: ~
-      request: ~
-      inquiry: ~
-      share_for_free: ~
+      sell: Selling
+      sell_w_online_payment: "Jual dengan pembayaran online"
+      sell_wo_online_payment: "Jual tanpa pembayaran online"
+      rent: "Menyewakan"
+      rent_w_online_payment: "Menyewakan dengan pembayaran online"
+      rent_wo_online_payment: "Menyewakan tanpa pembayaran online"
+      give: "Memberi"
+      lend: Lending
+      swap: Swapping
+      service: Offering
+      service_w_online_payment: "Menawarkan dengan pembayaran online"
+      service_wo_online_payment: "Menawarkan tanpa pembayaran online"
+      request: Requesting
+      inquiry: Announcement
+      share_for_free: "Berbagi secara gratis"
       default_action_button_labels:
-        sell: ~
-        rent: ~
-        request: ~
-        offer: ~
-        inquiry: ~
+        sell: Buy
+        rent: Rent
+        request: Offer
+        offer: Request
+        inquiry: Contact
   common:
-    edit_page: ~
+    edit_page: "Sunting page"
     default_community_slogan: "Pasar Komunitas"
-    default_community_description: ~
+    default_community_description: "Ini adalah tempat untuk menjual, menyewakan, menukar, dan berbagi barang dan jasa dengan anggota pasar lainnya."
     cancel: Batal
     fields_that_are_mandatory: "Kolom dengan tanda bintang (*) adalah wajib."
     or: atau
     password: "Kata Sandi"
-    service_name: ""
+    service_name: "%{service_name}"
     share_types:
       request: Permintaan
       offer: penawaran
@@ -973,29 +976,31 @@ id:
       sports: Olahraga
       music: Musik
       books: "Buku-buku dan majalah"
-      games: ~
+      games: "Games & Toys"
       furniture: Perabotan
       outdoors: "Berkemah & mainan di luar rumah"
       food: "Makanan & Dapur"
-      electronics: ~
+      electronics: "Elektronik"
       pets: "Hewan peliharaan & Hewan yang lain"
-      film: ~
-      clothes: ~
-      garden: ~
-      travel: ~
-      other: ~
+      film: "Film & Movies"
+      clothes: "Clothes & Accessories"
+      garden: Taman
+      travel: "Perjalanan"
+      other: "Lainya"
     username: "Nama Pengguna"
     username_or_email: "E-mail atau nama pengguna"
     what_is_this: "Apa ini?"
     removed_user: "Pengguna dihapus"
     payment_fee_info:
-      title: ~
-      stripe: ~
-      paypal: ~
-      info: ~
+      title: "Komisi dan biaya pemrosesan pembayaran"
+      stripe: Stripe
+      paypal: PayPal
+      info: "Pembayaran dalam %{service_name} diproses oleh gateway pembayaran yang tercantum di bawah ini. %{service_name} akan membebankan komisi tergantung pada gateway pembayaran. Gateway pembayaran juga dapat membebankan biaya untuk setiap pembayaran, seperti yang dijelaskan di bawah ini."
     paypal_fee_info:
-      title: ~
-      body_text: ~
+      title: "Biaya pemrosesan pembayaran PayPal"
+      body_text: |-
+        Untuk pembayaran PayPal,% {service_name} membebankan biaya komisi sebesar% {paypal_commission}%. Biaya transaksi minimum per transaksi adalah% {minimum_transaction_fee}. Biaya PayPal tidak termasuk dalam komisi ini, jadi selain komisi% {service_name}, Anda juga akan membayar biaya PayPal untuk masing-masing. Biaya PayPal adalah antara 2% dan 5% dari total harga penjualan, tergantung pada volume penjualan bulanan Anda dan negara tempat tinggal pembeli. Secara umum, pembelian domestik memiliki biaya lebih rendah daripada internasional, dan penjualan bulanan yang lebih tinggi memberi Anda diskon biaya.
+        Anda dapat melihat biaya yang tepat dengan masuk ke akun PayPal Anda dan membuka% {link_to_paypal}. Setelah setiap pembelian, Anda akan mendapatkan tanda terima yang menunjukkan biaya persis.
       body_text_accept: ~
       link_to_paypal_text: ~
     stripe_fee_info:
