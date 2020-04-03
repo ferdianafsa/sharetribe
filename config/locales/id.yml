@@ -792,47 +792,47 @@ id:
         edit_listing_shape: "Sunting daftar bentuk"
         update: "Perbarui"
         cancel: "Batal"
-        update_success: ~
-        update_failure: ~
-        delete: ~
-        can_not_delete_last: ~
-        can_not_delete_only_one_in_categories: ~
-      listing_shape_name: ~
-      listing_shape_name_placeholder: ~
-      action_button_label: ~
-      action_button_placeholder: ~
-      successfully_closed: ~
-      successfully_deleted: ~
-      pricing_and_checkout_title: ~
-      online_payments_label: ~
-      shipping_label: ~
-      price_label: ~
-      units_title: ~
-      units_desc: ~
+        update_success: "Perbarui berhasil"
+        update_failure: "Perbarui gagal"
+        delete: "Hapus"
+        can_not_delete_last: "Tidak bisa menghapus yang terakhir"
+        can_not_delete_only_one_in_categories: "Tidak dapat menghapus hanya satu di kategori"
+      listing_shape_name: "Daftar nama bidang"
+      listing_shape_name_placeholder: "Placeholder daftar nama bidang"
+      action_button_label: "Label tombol aksi"
+      action_button_placeholder: "Placeholder tombol aksi"
+      successfully_closed: "Berhasil ditutup"
+      successfully_deleted: "Berhasil dihapus"
+      pricing_and_checkout_title: "Judul harga dan checkout"
+      online_payments_label: "Izinkan penjual menerima pembayaran secara online"
+      shipping_label: "Izinkan penjual menentukan biaya pengiriman"
+      price_label: "Izinkan penjual menambahkan harga ke daftar mereka"
+      units_title: "Unit penetapan harga"
+      units_desc: "Jika Anda telah mengaktifkan unit harga, harga cantuman ditampilkan sebagai \ "harga per unit harga \". Contoh: \ "Rp 39.000,- per jam \"."
       units:
-        piece: ~
-        hour: ~
-        day: ~
-        night: ~
-        week: ~
-        month: ~
-        unit: ~
-      can_not_find: ~
-      add_custom_unit: ~
-      delete_custom_unit: ~
+        piece: "Per potong"
+        hour: "Per jam"
+        day: "Per hari"
+        night: "Per malam"
+        week: "Per minggu"
+        month: "Per bulan"
+        unit: "Per unit"
+      can_not_find: "Tidak dapat menemukan jenis pesanan dengan id:% {id}"
+      add_custom_unit: "+ Tambahkan satuan harga khusus ..."
+      delete_custom_unit: "Hapus"
       custom_unit_form:
-        title: ~
-        label_heading: ~
-        selector_label_heading: ~
-        label_placeholder: ~
-        selector_placeholder: ~
-        per: ~
+        title: "Unit penetapan harga baru"
+        label_heading: label
+        selector_label_heading: "Label pemilih"
+        label_placeholder: "misalnya. \ "kg \", \ "30 menit \", \ "orang \", \ "kelas \""
+        selector_placeholder: "misalnya. \ "Jumlah orang \", \ "Jumlah dalam kg \""
+        per: "Per"
         unit_type:
-          heading: ~
-          quantity_label: ~
-          time_label: ~
+          heading: "Jenis unit"
+          quantity_label: "Kuantitas (per potong, per kg, per orang, per 2 jam tur ...)"
+          time_label: "Waktu (per 30 menit, per 2 minggu, per tahun ...)"
     paypal_accounts:
-      marketplace_paypal_integration: ~
+      marketplace_paypal_integration: "Preferensi sistem pembayaran"
       preferences_updated: ~
       contact_support_link_text: ~
       integration_info_text: ~
