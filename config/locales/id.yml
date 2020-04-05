@@ -2,8 +2,8 @@ id:
   number:
     currency:
       format:
-        separator: ~
-        delimiter: ~
+        separator: ","
+        delimiter: "."
         format: ~
   admin:
     categories:
@@ -11,7 +11,7 @@ id:
         edit_listing_category: "Sunting Daftar Kategori"
       index:
         listing_categories: "Listing Kategori"
-        create_a_new_category: "Buat Kategori Bau"
+        create_a_new_category: "Buat Kategori Baru"
         remove_category_confirmation: "Hapus Konfirmasi Kategori"
         saving_order: "Menyimpan Pesanan"
         save_order_successful: "Menyimpan Pesanan Berhasil"
@@ -172,33 +172,33 @@ id:
       getting_started:
         getting_started: "Mulai"
       available_languages:
-        cs: ~
-        da-DK: ~
-        de: ~
-        en: ~
-        en-AU: ~
-        en-GB: ~
-        es: ~
-        es-ES: ~
-        fi: ~
-        fr: ~
-        fr-CA: ~
-        el: ~
-        it: ~
-        ja: ~
-        ko: ~
-        nb: ~
-        nl: ~
-        pl: ~
-        pt-BR: ~
-        pt-PT: ~
-        ru: ~
-        sv: ~
-        th-TH: ~
-        tr-TR: ~
-        vi: ~
-        zh: ~
-        zh-TW: ~
+        cs: Ceko
+        da-DK: Denmark
+        de: Jerman
+        en: Inggris
+        en-AU: "Bahasa Inggris (Australia)"
+        en-GB: "Bahasa Inggris (United Kingdom)"
+        es: Spanyol
+        es-ES: "Spanyol (Spanyol)"
+        fi: Finlandia
+        fr: Perancis
+        fr-CA: "Perancis (Kanada)"
+        el: Yunani
+        it: Italia
+        ja: Jepang
+        ko: Korea
+        nb: "Bokmål Norwegia"
+        nl: Belanda
+        pl: Polandia
+        pt-BR: "Portugis (Brasil)"
+        pt-PT: Portugis
+        ru: Rusia
+        sv: Swedia
+        th-TH: "Thailand (Thailand)"
+        tr-TR: Turki
+        vi: Vietnam
+        zh: Cina
+        zh-TW: "Cina (Taiwan)"
       settings:
         settings: "Pengaturan"
         general: "Umum"
