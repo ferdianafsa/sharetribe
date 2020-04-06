@@ -4,7 +4,7 @@ id:
       format:
         separator: ","
         delimiter: "."
-        format: ~
+        format: "%u%n"
   admin:
     categories:
       edit:
@@ -2597,9 +2597,9 @@ id:
     format: dd/mm/yyyy
   time:
     formats:
-      short: ~
-      shorter: ~
-      short_date: ~
+      short: "%b %e, %Y at %H:%M"
+      shorter: "%b %e at %H:%M"
+      short_date: "%b %e, %Y"
       hours_only: "%H:%M"
   timestamps:
     day_ago: "%{count} hari yang lalu"
